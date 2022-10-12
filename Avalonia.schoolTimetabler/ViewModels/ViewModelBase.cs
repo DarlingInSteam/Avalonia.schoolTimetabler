@@ -1,0 +1,1 @@
+﻿using ReactiveUI;namespace Avalonia.schoolTimetabler.ViewModels{    public class ViewModelBase : ReactiveObject    {    }}

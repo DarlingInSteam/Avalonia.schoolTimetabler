@@ -1,0 +1,1 @@
+using Avalonia.Controls;namespace Avalonia.schoolTimetabler.Views{    public partial class MainWindow : Window    {        public MainWindow()        {            InitializeComponent();        }    }}
