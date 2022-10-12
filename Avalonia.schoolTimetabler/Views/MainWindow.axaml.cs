@@ -1,1 +1,1 @@
-using Avalonia.Controls;namespace Avalonia.schoolTimetabler.Views{    public partial class MainWindow : Window    {        public MainWindow()        {            InitializeComponent();        }    }}
+using System.Reactive;using Avalonia.Controls;using Avalonia.Interactivity;using ReactiveUI;namespace Avalonia.schoolTimetabler.Views{    public partial class MainWindow : Window    {        public MainWindow()        {            InitializeComponent();        }    }}

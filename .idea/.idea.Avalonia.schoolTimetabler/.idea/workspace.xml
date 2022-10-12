@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="Add all button and add theme">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "XamlPreviewOptionsPage",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +71,7 @@
       <workItem from="1665580116878" duration="206000" />
       <workItem from="1665580530983" duration="311000" />
       <workItem from="1665580944064" duration="324000" />
-      <workItem from="1665581401143" duration="6622000" />
+      <workItem from="1665581401143" duration="15203000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665580129761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add all button and add theme">
+      <created>1665589251133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665589251133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="Add all button and add theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all button and add theme" />
   </component>
 </project>
