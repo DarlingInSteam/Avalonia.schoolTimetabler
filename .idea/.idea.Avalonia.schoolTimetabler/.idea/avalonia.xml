@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="Avalonia.schoolTimetabler/App.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
+        <entry key="Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/MainWindow.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
       </map>
     </option>
