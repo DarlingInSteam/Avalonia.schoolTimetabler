@@ -7,18 +7,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add welcome text">
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Assets/timetable.ico" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/School.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Assets/avalonia-logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/darling/Загрузки/timetable.ico",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ReSpellerSettingsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/darling/Загрузки/timetable.ico&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Avalonia.schoolTimetabler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -75,7 +88,14 @@
       <workItem from="1665580116878" duration="206000" />
       <workItem from="1665580530983" duration="311000" />
       <workItem from="1665580944064" duration="324000" />
-      <workItem from="1665581401143" duration="22605000" />
+      <workItem from="1665581401143" duration="23223000" />
+      <workItem from="1665608113966" duration="681000" />
+      <workItem from="1665728300185" duration="46000" />
+      <workItem from="1665728368047" duration="5000" />
+      <workItem from="1665736333787" duration="181000" />
+      <workItem from="1665744645986" duration="249000" />
+      <workItem from="1665776046621" duration="3063000" />
+      <workItem from="1665832390845" duration="25059000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -105,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665606478182</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add nuget.config">
+      <created>1665607582539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665607582539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +169,7 @@
     <MESSAGE value="Add all button and add theme" />
     <MESSAGE value="add header" />
     <MESSAGE value="add welcome text" />
-    <option name="LAST_COMMIT_MESSAGE" value="add welcome text" />
+    <MESSAGE value="add nuget.config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nuget.config" />
   </component>
 </project>

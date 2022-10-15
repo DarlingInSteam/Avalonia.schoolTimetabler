@@ -1,0 +1,1 @@
+using System;using System.Collections.ObjectModel;using Avalonia.Controls;using Avalonia.schoolTimetabler.Models;using Avalonia.schoolTimetabler.Views;namespace Avalonia.schoolTimetabler.ViewModels{    public class CreateSchoolProfileViewModel : ViewModelBase    {        public CreateSchoolProfileViewModel()        {                    }    }}
