@@ -1,0 +1,1 @@
+namespace Avalonia.schoolTimetabler.Models;public class User{    public string EditorName;    public string Post;    public string Login;    public string Password;}
