@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add information user and add class user">
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Values/timetable.ico" beforeDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="delete folder values">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <workItem from="1665832390845" duration="30177000" />
       <workItem from="1665906598427" duration="120000" />
       <workItem from="1665908241390" duration="1407000" />
-      <workItem from="1666113749527" duration="7205000" />
+      <workItem from="1666113749527" duration="8029000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666120750636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="delete folder values">
+      <created>1666121078252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666121078252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
     <MESSAGE value="add nuget.config" />
     <MESSAGE value="refactoring code and add IsVisible method" />
     <MESSAGE value="add information user and add class user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add information user and add class user" />
+    <MESSAGE value="delete folder values" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete folder values" />
   </component>
 </project>
