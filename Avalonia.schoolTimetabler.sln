@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.schoolTimetabler", "Avalonia.schoolTimetabler\Avalonia.schoolTimetabler.csproj", "{8FFF7C9E-67DF-48D3-8349-4875FB36AAA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CF120347-E8B7-4B89-96EA-9AD872B51024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{44C852E7-5235-49D3-A30E-9CE132C46478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{8FFF7C9E-67DF-48D3-8349-4875FB36AAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FFF7C9E-67DF-48D3-8349-4875FB36AAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FFF7C9E-67DF-48D3-8349-4875FB36AAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF120347-E8B7-4B89-96EA-9AD872B51024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF120347-E8B7-4B89-96EA-9AD872B51024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF120347-E8B7-4B89-96EA-9AD872B51024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF120347-E8B7-4B89-96EA-9AD872B51024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C852E7-5235-49D3-A30E-9CE132C46478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C852E7-5235-49D3-A30E-9CE132C46478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C852E7-5235-49D3-A30E-9CE132C46478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C852E7-5235-49D3-A30E-9CE132C46478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

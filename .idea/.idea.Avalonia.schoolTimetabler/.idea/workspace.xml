@@ -7,8 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="delete folder values">
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/clean.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/School.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
@@ -17,6 +28,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -24,32 +42,40 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2G2IBAU5Pwghh8kaPcvCbNAiOCU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/darling/Загрузки/timetable.ico&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ReSpellerSettingsId",
+    "two.files.diff.last.used.folder": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Avalonia.schoolTimetabler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -91,7 +117,9 @@
       <workItem from="1665832390845" duration="30177000" />
       <workItem from="1665906598427" duration="120000" />
       <workItem from="1665908241390" duration="1407000" />
-      <workItem from="1666113749527" duration="8029000" />
+      <workItem from="1666113749527" duration="8332000" />
+      <workItem from="1666198011132" duration="1634000" />
+      <workItem from="1666597267167" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -149,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666121078252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add information about school and back dtn">
+      <created>1666121899758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666121899758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +216,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="Add all button and add theme" />
@@ -190,6 +226,7 @@
     <MESSAGE value="refactoring code and add IsVisible method" />
     <MESSAGE value="add information user and add class user" />
     <MESSAGE value="delete folder values" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete folder values" />
+    <MESSAGE value="add information about school and back dtn" />
+    <option name="LAST_COMMIT_MESSAGE" value="add information about school and back dtn" />
   </component>
 </project>
