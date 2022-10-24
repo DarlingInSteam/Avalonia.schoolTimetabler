@@ -7,11 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add directory in domain and data">
-      <change afterPath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Class1.cs" beforeDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add DBcomm">
+      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IClassesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ISchoolRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
       <workItem from="1665908241390" duration="1407000" />
       <workItem from="1666113749527" duration="8332000" />
       <workItem from="1666198011132" duration="1634000" />
-      <workItem from="1666597267167" duration="7132000" />
+      <workItem from="1666597267167" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666603554046</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add DBcomm">
+      <created>1666604428235</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666604428235</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +243,7 @@
     <MESSAGE value="add information about school and back dtn" />
     <MESSAGE value="add domain and data" />
     <MESSAGE value="add directory in domain and data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add directory in domain and data" />
+    <MESSAGE value="add DBcomm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DBcomm" />
   </component>
 </project>
