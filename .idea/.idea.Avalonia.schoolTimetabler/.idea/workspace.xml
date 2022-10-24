@@ -7,22 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/SchoolDB.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/TeacherDB.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/UserDB.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/ClassesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/SchoolRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/TeacherRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Common/Teacher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ITeacherRepository.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add DB xml and Teacher class">
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/DisciplineDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Repository/DisciplineRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Common/Discipline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IDisciplineRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/ClassesDB.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +114,7 @@
       <workItem from="1666113749527" duration="8332000" />
       <workItem from="1666198011132" duration="1634000" />
       <workItem from="1666597267167" duration="10398000" />
-      <workItem from="1666617774959" duration="1485000" />
+      <workItem from="1666617774959" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -214,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666605358471</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add DB xml and Teacher class">
+      <created>1666619279254</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666619279254</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +261,7 @@
     <MESSAGE value="add directory in domain and data" />
     <MESSAGE value="add DBcomm" />
     <MESSAGE value="add I repositories" />
-    <option name="LAST_COMMIT_MESSAGE" value="add I repositories" />
+    <MESSAGE value="add DB xml and Teacher class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DB xml and Teacher class" />
   </component>
 </project>
