@@ -7,14 +7,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add DBcomm">
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IClassesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ISchoolRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IUserRepository.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/SchoolDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/TeacherDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/UserDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Repository/ClassesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Repository/SchoolRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Repository/TeacherRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Repository/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Common/Teacher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ITeacherRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/ClassesDB.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repository/test.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ReSpellerSettingsId",
-    "two.files.diff.last.used.folder": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Avalonia.schoolTimetabler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -112,7 +120,8 @@
       <workItem from="1665908241390" duration="1407000" />
       <workItem from="1666113749527" duration="8332000" />
       <workItem from="1666198011132" duration="1634000" />
-      <workItem from="1666597267167" duration="8078000" />
+      <workItem from="1666597267167" duration="10398000" />
+      <workItem from="1666617774959" duration="1485000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -198,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666604428235</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add I repositories">
+      <created>1666605358471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666605358471</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +260,7 @@
     <MESSAGE value="add domain and data" />
     <MESSAGE value="add directory in domain and data" />
     <MESSAGE value="add DBcomm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DBcomm" />
+    <MESSAGE value="add I repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add I repositories" />
   </component>
 </project>
