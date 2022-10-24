@@ -7,14 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add domain and data">
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/DBcomm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repository/test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Common/Classes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Common/School.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Common/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add directory in domain and data">
+      <change afterPath="$PROJECT_DIR$/Data/Repository/DBcomm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repository/DBcomm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Class1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,7 @@
       <workItem from="1665908241390" duration="1407000" />
       <workItem from="1666113749527" duration="8332000" />
       <workItem from="1666198011132" duration="1634000" />
-      <workItem from="1666597267167" duration="6257000" />
+      <workItem from="1666597267167" duration="7132000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666602557571</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add directory in domain and data">
+      <created>1666603554046</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666603554046</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +232,7 @@
     <MESSAGE value="delete folder values" />
     <MESSAGE value="add information about school and back dtn" />
     <MESSAGE value="add domain and data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add domain and data" />
+    <MESSAGE value="add directory in domain and data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add directory in domain and data" />
   </component>
 </project>

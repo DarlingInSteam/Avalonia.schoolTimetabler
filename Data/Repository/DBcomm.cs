@@ -1,0 +1,1 @@
+using System.Xml;namespace Data.Repository;public class DBcomm{    private string _pathToClientsDataBase;    private XmlTextReader _clientReader;    public DBcomm(string pathToClientsDataBase = "../FakeDataBase/base.xml")    {        _pathToClientsDataBase = pathToClientsDataBase;        _clientReader = new XmlTextReader(_pathToClientsDataBase);    }}
