@@ -7,15 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolLessons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/School.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/School.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateSchoolProfileViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add ConformSchoolSettings">
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/HelpViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/Help.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/Help.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/avalonia.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666619279254</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add ConformSchoolSettings">
+      <created>1667682607338</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667682607338</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +267,7 @@
     <MESSAGE value="add DBcomm" />
     <MESSAGE value="add I repositories" />
     <MESSAGE value="add DB xml and Teacher class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DB xml and Teacher class" />
+    <MESSAGE value="add ConformSchoolSettings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ConformSchoolSettings" />
   </component>
 </project>

@@ -1,0 +1,1 @@
+namespace Avalonia.schoolTimetabler.ViewModels;public class HelpViewModel{    }
