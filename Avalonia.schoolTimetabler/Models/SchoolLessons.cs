@@ -1,0 +1,1 @@
+using System.Collections.Generic;namespace Avalonia.schoolTimetabler.Models;public class SchoolLessons{    public List<string>? Lessons;}

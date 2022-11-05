@@ -4,12 +4,12 @@ namespace Avalonia.schoolTimetabler.Models;
 
 public class User
 {
-    public string Password;
-    public string UserName;
+    public string FullName;
+    public string Post;
 
-    public User(string password, string userName)
+    public User(string fullName, string post)
     {
-        Password = password;
-        UserName = userName;
+        FullName = fullName;
+        Post = post;
     }
 }
