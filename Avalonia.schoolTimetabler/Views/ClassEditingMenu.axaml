@@ -1,8 +1,41 @@
-<UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Avalonia.schoolTimetabler.Views.ClassEditingMenu">
-    Welcome to Avalonia!
+<UserControl
+    x:Class="Avalonia.schoolTimetabler.Views.ClassEditingMenu"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Avalonia.schoolTimetabler.ViewModels"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <StackPanel
+        Grid.Column="1"
+        Margin="15,55,0,0"
+        Orientation="Vertical"
+        Spacing="5">
+
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
+            <TextBlock>Меню редактирования классов</TextBlock>
+            <DataGrid
+                Width="700"
+                AutoGenerateColumns="True"
+                Items="{Binding Classes}">
+                <!-- <DataGrid.Columns> -->
+                <!--     <DataGridTextColumn Header="Класс" /> -->
+                <!--     <DataGridTextColumn Header="Буква" /> -->
+                <!--     <DataGridTextColumn Header="Классный кабинет" /> -->
+                <!-- </DataGrid.Columns> -->
+            </DataGrid>
+            <StackPanel>
+                <!-- <Button>+</Button> -->
+                <!-- <Button>-</Button> -->
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+
+    <Design.DataContext>
+        <vm:ClassEditingMenuViewModel />
+    </Design.DataContext>
+
 </UserControl>

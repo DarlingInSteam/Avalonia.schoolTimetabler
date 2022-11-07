@@ -1,0 +1,1 @@
+namespace Avalonia.schoolTimetabler.Models;public class SchoolDisciplines{}
