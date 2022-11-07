@@ -1,10 +1,11 @@
-using Avalonia;
-using Avalonia.Controls;
+
 using Avalonia.Markup.Xaml;
+using Avalonia.ReactiveUI;
+using Avalonia.schoolTimetabler.ViewModels;
 
 namespace Avalonia.schoolTimetabler.Views;
 
-public partial class ClassEditingMenu : UserControl
+public partial class ClassEditingMenu : ReactiveUserControl<ClassEditingMenuViewModel>
 {
     public ClassEditingMenu()
     {
