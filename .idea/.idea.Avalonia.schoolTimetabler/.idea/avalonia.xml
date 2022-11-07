@@ -4,8 +4,10 @@
     <option name="projectPerEditor">
       <map>
         <entry key="Avalonia.schoolTimetabler/App.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
+        <entry key="Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/CreateSchoolTimetable.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
+        <entry key="Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/Help.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/MainWindow.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
       </map>
