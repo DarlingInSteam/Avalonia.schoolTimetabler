@@ -10,6 +10,7 @@
         <entry key="Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/Help.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/MainWindow.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
+        <entry key="Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
       </map>
     </option>
   </component>

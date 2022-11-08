@@ -1,4 +1,5 @@
 
+using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.ReactiveUI;
 using Avalonia.schoolTimetabler.ViewModels;

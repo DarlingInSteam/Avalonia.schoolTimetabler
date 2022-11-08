@@ -1,9 +1,16 @@
+using ReactiveUI;
+
 namespace Avalonia.schoolTimetabler.ViewModels;
 
-public class DisciplineEditingMenuViewModel
+public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    public void Discipline()
+    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        
-    }   
+       
+    }
+    
+
+    public string? UrlPathSegment { get; }
+    public IScreen HostScreen { get; }
+    public RoutingState Router { get; }
 }

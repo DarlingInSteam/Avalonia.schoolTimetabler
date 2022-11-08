@@ -1,0 +1,1 @@
+namespace Data.Models;public record SchoolClass(string Number, string Symbol, string Classroom);

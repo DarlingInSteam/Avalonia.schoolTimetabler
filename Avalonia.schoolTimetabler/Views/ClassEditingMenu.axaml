@@ -20,15 +20,16 @@
             </StackPanel>
 
             <DataGrid
+                Name="ClassesDG"
                 Width="700"
                 Height="700"
-                AutoGenerateColumns="True"
+                CanUserResizeColumns="True"
                 Items="{Binding Classes}">
-                <!-- <DataGrid.Columns> -->
-                <!--     <DataGridTextColumn Binding="{Binding Number}" Header="Класс" /> -->
-                <!--     <DataGridTextColumn Binding="{Binding Symbol}" Header="Буква" /> -->
-                <!--     <DataGridTextColumn Binding="{Binding Classroom}" Header="Классный кабинет" /> -->
-                <!-- </DataGrid.Columns> -->
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Number}" Header="Класс" />
+                    <DataGridTextColumn Binding="{Binding Symbol}" Header="Буква" />
+                    <DataGridTextColumn Binding="{Binding Classroom}" Header="Классный кабинет" />
+                </DataGrid.Columns>
             </DataGrid>
         </StackPanel>
     </StackPanel>

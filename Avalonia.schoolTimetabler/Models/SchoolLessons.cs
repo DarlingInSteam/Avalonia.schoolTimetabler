@@ -1,1 +1,1 @@
-using System.Collections.Generic;namespace Avalonia.schoolTimetabler.Models;public class SchoolLessons{    public List<string>? Lessons { get; set; }}
+using System.Collections.Generic;namespace Avalonia.schoolTimetabler.Models;public class SchoolLessons{    public string Lessons { get; }}

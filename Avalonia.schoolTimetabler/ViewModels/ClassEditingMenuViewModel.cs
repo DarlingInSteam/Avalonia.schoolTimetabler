@@ -1,41 +1,41 @@
-using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
+using System.Linq;
 using System.Reactive;
 using ReactiveUI;
-using Avalonia.schoolTimetabler.Models;
+using Data.FakeDataBase;
+using System.Reactive.Linq;
+using SchoolClass = Avalonia.schoolTimetabler.Models.SchoolClass;
 
 namespace Avalonia.schoolTimetabler.ViewModels;
 
 public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-   
-    public ObservableCollection<SchoolClasses> Classes { get; }
+    public ObservableCollection<SchoolClass> Classes { get; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
-
+    private FDataBase _storage;
+    
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        Classes = new ObservableCollection<SchoolClasses>(GenerateMockClassesTable());
-
+        _storage = FDataBase.GetInstance();
+        Classes = new ObservableCollection<SchoolClass>(_storage.SchoolClasses.Select(dbSchoolClass => new SchoolClass(dbSchoolClass)));
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            Classes.Add(
-                new SchoolClasses()
-                {
-                    Number = "New First Name",
-                    Symbol = "New Last Name",
-                    Classroom = "New Classroom"
-                });
+            var schoolClass = new SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
+            _storage.AddClass(schoolClass.MapToDbSchoolClass());
+            Classes.Add(schoolClass);
         });
-    }
-    
-    private IEnumerable<SchoolClasses> GenerateMockClassesTable()
-    {
-        var defaultClasses = new List<SchoolClasses>();
-        return defaultClasses;
+        
+        
     }
 
+    
+    
+    public void Save()
+    {
+        
+    }
+    
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }
