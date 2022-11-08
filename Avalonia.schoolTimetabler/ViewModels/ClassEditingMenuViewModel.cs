@@ -5,24 +5,23 @@ using System.Reactive;
 using ReactiveUI;
 using Data.FakeDataBase;
 using System.Reactive.Linq;
-using SchoolClass = Avalonia.schoolTimetabler.Models.SchoolClass;
 
 namespace Avalonia.schoolTimetabler.ViewModels;
 
 public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    public ObservableCollection<SchoolClass> Classes { get; }
+    public ObservableCollection<global::Data.Models.SchoolClass> Classes { get; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
     private FDataBase _storage;
     
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
         _storage = FDataBase.GetInstance();
-        Classes = new ObservableCollection<SchoolClass>(_storage.SchoolClasses.Select(dbSchoolClass => new SchoolClass(dbSchoolClass)));
+        Classes = new ObservableCollection<global::Data.Models.SchoolClass>(_storage.SchoolClasses);
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            var schoolClass = new SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
-            _storage.AddClass(schoolClass.MapToDbSchoolClass());
+            var schoolClass = new global::Data.Models.SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
+            _storage.AddClass(schoolClass);
             Classes.Add(schoolClass);
         });
         

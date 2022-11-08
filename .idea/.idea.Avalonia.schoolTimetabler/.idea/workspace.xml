@@ -7,37 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Models/SchoolClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/avalonia.xml" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add storage for classediting">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/AppViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolClasses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolLessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolLessons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolClass.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/HelpViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolTimetable.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolTimetable.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/Help.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/Help.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler/clean.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolClass.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +34,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler/App.axaml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -144,7 +119,7 @@
       <workItem from="1667823817851" duration="2005000" />
       <workItem from="1667829834839" duration="6826000" />
       <workItem from="1667909229737" duration="5878000" />
-      <workItem from="1667926894032" duration="11888000" />
+      <workItem from="1667926894032" duration="12677000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -265,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667835840437</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add storage for classediting">
+      <created>1667947890573</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667947890573</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +298,7 @@
     <MESSAGE value="add ConformSchoolSettings" />
     <MESSAGE value="create DataGrid ClassEditing" />
     <MESSAGE value="complete add Class(Fix user control)" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete add Class(Fix user control)" />
+    <MESSAGE value="add storage for classediting" />
+    <option name="LAST_COMMIT_MESSAGE" value="add storage for classediting" />
   </component>
 </project>
