@@ -1,1 +1,0 @@
-namespace SchoolTimetabler.Models;public class SchoolDisciplines{}

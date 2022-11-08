@@ -1,0 +1,1 @@
+namespace Data.FakeDataBase;public class FDataBaseSchoolLessons{    }

@@ -1,0 +1,1 @@
+namespace Data.Models;public class SchoolDiscipline{    }
