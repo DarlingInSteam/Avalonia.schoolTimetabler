@@ -1,1 +1,0 @@
-using System.Collections.Generic;namespace Avalonia.schoolTimetabler.Models;public class SchoolLessons{    public string Lessons { get; }}

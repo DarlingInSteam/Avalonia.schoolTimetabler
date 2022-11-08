@@ -8,13 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="fix storage classediting">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler.sln.DotSettings.user" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
@@ -32,14 +25,8 @@
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/avalonia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml.cs" beforeDir="false" />
@@ -182,7 +169,7 @@
       <workItem from="1667823817851" duration="2005000" />
       <workItem from="1667829834839" duration="6826000" />
       <workItem from="1667909229737" duration="5878000" />
-      <workItem from="1667926894032" duration="13441000" />
+      <workItem from="1667926894032" duration="13057000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>

@@ -1,0 +1,1 @@
+﻿using ReactiveUI;namespace SchoolTimetabler.ViewModels{    public class ViewModelBase : ReactiveObject    {            }}

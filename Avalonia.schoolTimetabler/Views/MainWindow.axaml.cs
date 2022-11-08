@@ -1,1 +1,0 @@
-using Avalonia.Controls;using Avalonia.schoolTimetabler.ViewModels;namespace Avalonia.schoolTimetabler.Views{    public partial class MainWindow : Window    {        public MainWindow()        {            InitializeComponent();            DataContext = new MainWindowViewModel();        }    }}
