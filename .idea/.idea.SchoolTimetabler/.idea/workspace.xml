@@ -7,56 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="fix storage classediting">
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Models/SchoolDisciplines.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Models/SchoolLessons.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.schoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.schoolTimetabler.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/App.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/AppViewLocator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Assets/timetable.ico" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/timetable.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/School.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Models/School.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolDisciplines.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/SchoolLessons.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewLocator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/ViewModels/ViewModelBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/ClassEditingMenu.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/CreateSchoolProfile.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/DisciplineEditingMenu.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/clean.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalonia.schoolTimetabler/nuget.config" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/nuget.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseClasses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseClasses.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseDisciplines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseDisciplines.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseSchoolLessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseSchoolLessons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolDiscipline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolDiscipline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolLesson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolLesson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +40,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler/App.axaml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/Avalonia.schoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,6 +129,14 @@
       <workItem from="1667829834839" duration="6826000" />
       <workItem from="1667909229737" duration="5878000" />
       <workItem from="1667926894032" duration="13057000" />
+      <workItem from="1667992665481" duration="600000" />
+      <workItem from="1668007537102" duration="33000" />
+      <workItem from="1668075983649" duration="3274000" />
+      <workItem from="1668088717087" duration="10433000" />
+      <workItem from="1668123645107" duration="171000" />
+      <workItem from="1668124287542" duration="1078000" />
+      <workItem from="1668237082208" duration="1216000" />
+      <workItem from="1668340777824" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>

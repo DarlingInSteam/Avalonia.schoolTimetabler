@@ -1,1 +1,1 @@
-namespace Data.Models;public class SchoolDiscipline{    }
+namespace Data.Models;public class SchoolDiscipline{    public SchoolDiscipline(string disciplineName)    {        DisciplineName = disciplineName;    }    public string DisciplineName { get; set; }}

@@ -12,20 +12,21 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
 {
     public ObservableCollection<Data.Models.SchoolClass> Classes { get; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
-    private FDataBase _storage;
+    private FDataBaseClasses _storage;
     
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        _storage = FDataBase.GetInstance();
+        _storage = FDataBaseClasses.GetInstance();
         Classes = new ObservableCollection<Data.Models.SchoolClass>(_storage.SchoolClasses);
         AddNewClass = ReactiveCommand.Create(() =>
         {
             var schoolClass = new Data.Models.SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
-            _storage.AddClass(schoolClass);
+            _storage.AddClass(schoolClass); 
             Classes.Add(schoolClass);
+            
         });
     }
-
+    
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }
