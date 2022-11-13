@@ -20,7 +20,6 @@
             </StackPanel>
 
             <DataGrid
-                Name="ClassesDG"
                 Width="700"
                 Height="700"
                 CanUserResizeColumns="True"

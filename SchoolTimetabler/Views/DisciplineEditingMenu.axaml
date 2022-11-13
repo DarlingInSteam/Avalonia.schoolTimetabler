@@ -13,15 +13,21 @@
         <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
             <TextBlock>Меню редактирования дисциплин:</TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Button Margin="0,0,0,5" Content="Добавить дисциплину" />
+                <Button
+                    Margin="0,0,0,5"
+                    Command="{Binding AddNewDiscipline}"
+                    Content="Добавить дисциплину" />
             </StackPanel>
 
-            <DataGrid Width="700" Height="700">
-                <DataGrid.Columns>
-                    <!-- <DataGridTextColumn Binding="{Binding Number}" Header="Класс" /> -->
-                    <!-- <DataGridTextColumn Binding="{Binding Symbol}" Header="Буква" /> -->
-                    <!-- <DataGridTextColumn Binding="{Binding Classroom}" Header="Классный кабинет" /> -->
-                </DataGrid.Columns>
+            <DataGrid
+                Width="700"
+                Height="700"
+                AutoGenerateColumns="True"
+                CanUserResizeColumns="True"
+                Items="{Binding Disciplines}">
+                <!-- <DataGrid.Columns> -->
+                <!--     <DataGridTextColumn Binding="{Binding Name}" Header="Название дисциплины" /> -->
+                <!-- </DataGrid.Columns> -->
             </DataGrid>
         </StackPanel>
     </StackPanel>

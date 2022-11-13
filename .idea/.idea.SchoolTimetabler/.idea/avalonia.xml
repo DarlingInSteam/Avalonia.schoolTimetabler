@@ -16,6 +16,7 @@
         <entry key="SchoolTimetabler/Views/CreateSchoolProfile.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/DisciplineEditingMenu.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/MainWindow.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
+        <entry key="SchoolTimetabler/Views/TeacherEditingMenu.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
       </map>
     </option>
   </component>
