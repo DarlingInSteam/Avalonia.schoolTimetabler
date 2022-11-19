@@ -14,9 +14,9 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
     private FDataBaseClasses _storage;
     
-    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
+    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseClasses storage)
     {
-        _storage = FDataBaseClasses.GetInstance();
+        _storage = storage;
         Classes = new ObservableCollection<Data.Models.SchoolClass>(_storage.SchoolClasses);
         AddNewClass = ReactiveCommand.Create(() =>
         {

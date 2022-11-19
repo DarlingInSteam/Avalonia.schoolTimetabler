@@ -7,16 +7,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add datagrid FDB for Disciplines and Lessons">
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTeachers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FakeDataBaseSchoolInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseSchoolLessons.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolLesson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseClasses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseClasses.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseDisciplines.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseDisciplines.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/School.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/School.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,7 +143,8 @@
       <workItem from="1668123645107" duration="171000" />
       <workItem from="1668124287542" duration="1078000" />
       <workItem from="1668237082208" duration="1216000" />
-      <workItem from="1668340777824" duration="3037000" />
+      <workItem from="1668340777824" duration="3060000" />
+      <workItem from="1668860473277" duration="12134000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -278,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668341268981</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix lessons">
+      <created>1668344648306</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668344648306</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,25 +347,15 @@
     <MESSAGE value="add storage for classediting" />
     <MESSAGE value="fix storage classediting" />
     <MESSAGE value="add datagrid FDB for Disciplines and Lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add datagrid FDB for Disciplines and Lessons" />
+    <MESSAGE value="fix lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix lessons" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" initialLine="6" containingFunctionPresentation="property 'Classes'">
-            <startOffsets>
-              <option value="312" />
-            </startOffsets>
-            <endOffsets>
-              <option value="316" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#ReactiveUI.ReactiveObject" memberName="Changed" />
+        <PinnedItemInfo parentTag="Type#SchoolTimetabler.ViewModels.CreateSchoolProfileViewModel" memberName="_countTeachers" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

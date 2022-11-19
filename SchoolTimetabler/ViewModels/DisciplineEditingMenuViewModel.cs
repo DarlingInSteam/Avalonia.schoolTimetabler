@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
+using Avalonia.Controls;
 using Data.FakeDataBase;
 using ReactiveUI;
 
@@ -11,9 +12,9 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
     private FDataBaseDisciplines _storage;
     
-    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
+    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseDisciplines storage)
     {
-        _storage = FDataBaseDisciplines.GetInstance();
+        _storage = storage;
         Disciplines = new ObservableCollection<Data.Models.SchoolDiscipline>(_storage.SchoolDisciplines);
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {
