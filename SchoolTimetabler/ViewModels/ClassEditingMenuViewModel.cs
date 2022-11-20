@@ -10,9 +10,11 @@ namespace SchoolTimetabler.ViewModels;
 
 public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    public ObservableCollection<Data.Models.SchoolClass> Classes { get; }
+    public ObservableCollection<Data.Models.SchoolClass> Classes { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
+    public ReactiveCommand<Unit, Unit> DeleteClass { get; }
     private FDataBaseClasses _storage;
+    private int _dataGridSelectedIndex;
     
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseClasses storage)
     {
@@ -23,8 +25,19 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
             var schoolClass = new Data.Models.SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
             _storage.AddClass(schoolClass); 
             Classes.Add(schoolClass);
-            
         });
+
+        DeleteClass = ReactiveCommand.Create(() =>
+        {
+            _storage.DeleteClass(_dataGridSelectedIndex);
+            Classes.Remove(Classes[_dataGridSelectedIndex]);
+        });
+    }
+    
+    public int DataGridSelectedIndex
+    { 
+        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value); 
+        get => _dataGridSelectedIndex; 
     }
     
     public string? UrlPathSegment { get; }

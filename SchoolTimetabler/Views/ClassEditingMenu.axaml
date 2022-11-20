@@ -24,7 +24,17 @@
                 Height="700"
                 AutoGenerateColumns="True"
                 CanUserResizeColumns="True"
-                Items="{Binding Classes}">
+                Items="{Binding Classes}"
+                SelectedIndex="{Binding DataGridSelectedIndex}">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Command="{Binding DeleteClass}" Header="Delete">
+                            <MenuItem.Icon>
+                                <Image Source="/Assets/trashcan.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
                 <!-- <DataGrid.Columns> -->
                 <!--     <DataGridTextColumn Binding="{Binding Number}" Header="Класс" /> -->
                 <!--     <DataGridTextColumn Binding="{Binding Symbol}" Header="Буква" /> -->
