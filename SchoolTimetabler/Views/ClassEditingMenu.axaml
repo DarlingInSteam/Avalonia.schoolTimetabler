@@ -35,11 +35,6 @@
                         </MenuItem>
                     </ContextMenu>
                 </DataGrid.ContextMenu>
-                <!-- <DataGrid.Columns> -->
-                <!--     <DataGridTextColumn Binding="{Binding Number}" Header="Класс" /> -->
-                <!--     <DataGridTextColumn Binding="{Binding Symbol}" Header="Буква" /> -->
-                <!--     <DataGridTextColumn Binding="{Binding Classroom}" Header="Классный кабинет" /> -->
-                <!-- </DataGrid.Columns> -->
             </DataGrid>
         </StackPanel>
     </StackPanel>

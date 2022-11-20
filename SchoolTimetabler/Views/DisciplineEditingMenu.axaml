@@ -24,10 +24,17 @@
                 Height="700"
                 AutoGenerateColumns="True"
                 CanUserResizeColumns="True"
-                Items="{Binding Disciplines}">
-                <!-- <DataGrid.Columns> -->
-                <!--     <DataGridTextColumn Binding="{Binding Name}" Header="Название дисциплины" /> -->
-                <!-- </DataGrid.Columns> -->
+                Items="{Binding Disciplines}"
+                SelectedIndex="{Binding DataGridSelectedIndex}">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Command="{Binding DeleteDiscipline}" Header="Delete">
+                            <MenuItem.Icon>
+                                <Image Source="/Assets/trashcan.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
             </DataGrid>
         </StackPanel>
     </StackPanel>

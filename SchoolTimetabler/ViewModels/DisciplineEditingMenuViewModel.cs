@@ -8,9 +8,11 @@ namespace SchoolTimetabler.ViewModels;
 
 public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    public ObservableCollection<Data.Models.SchoolDiscipline> Disciplines { get; }
+    public ObservableCollection<Data.Models.SchoolDiscipline> Disciplines { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
+    public ReactiveCommand<Unit, Unit> DeleteDiscipline { get; }
     private FDataBaseDisciplines _storage;
+    private int _dataGridSelectedIndex;
     
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseDisciplines storage)
     {
@@ -23,6 +25,18 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
             Disciplines.Add(schoolDiscipline);
             
         });
+
+        DeleteDiscipline = ReactiveCommand.Create(() =>
+        {
+            _storage.DeleteDiscipline(_dataGridSelectedIndex);
+            Disciplines.Remove(Disciplines[_dataGridSelectedIndex]);
+        });
+    }
+    
+    public int DataGridSelectedIndex
+    { 
+        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value); 
+        get => _dataGridSelectedIndex; 
     }
     
     public string? UrlPathSegment { get; }
