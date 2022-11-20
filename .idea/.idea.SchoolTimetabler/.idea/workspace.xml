@@ -7,10 +7,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add information about school">
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="extra save">
+      <change afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/css/jquery.bonsai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/icon-font/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/icon-font/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/icon-font/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/icon-font/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/icon-font/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/js/jquery.bonsai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/js/less-1.7.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/594af663de577680f35b13183109d675.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/9c2d789ba27c68f3ac798a5b04556de4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/a74bf0e3699da3f8e58beeb19b53e20a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/cf9c8b720f3815adeccaf3ef6e48c6c4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/diagrams.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/element_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contents/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/diagrams/a74bf0e3699da3f8e58beeb19b53e20a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/Views/SchoolInfo.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -131,7 +157,7 @@
       <workItem from="1668237082208" duration="1216000" />
       <workItem from="1668340777824" duration="3060000" />
       <workItem from="1668860473277" duration="13192000" />
-      <workItem from="1668917458657" duration="2481000" />
+      <workItem from="1668917458657" duration="3092000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -287,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668872755185</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="extra save">
+      <created>1668920466757</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668920466757</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +376,8 @@
     <MESSAGE value="add datagrid FDB for Disciplines and Lessons" />
     <MESSAGE value="fix lessons" />
     <MESSAGE value="add information about school" />
-    <option name="LAST_COMMIT_MESSAGE" value="add information about school" />
+    <MESSAGE value="extra save" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra save" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
