@@ -7,8 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add delete row in all datagrid">
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/clean.sh" beforeDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="delete sh">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +137,7 @@
       <workItem from="1668237082208" duration="1216000" />
       <workItem from="1668340777824" duration="3060000" />
       <workItem from="1668860473277" duration="13192000" />
-      <workItem from="1668917458657" duration="17913000" />
+      <workItem from="1668917458657" duration="20321000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -324,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668952072917</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="delete sh">
+      <created>1668952168636</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668952168636</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +369,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add header" />
     <MESSAGE value="add welcome text" />
     <MESSAGE value="add nuget.config" />
     <MESSAGE value="refactoring code and add IsVisible method" />
@@ -383,7 +393,8 @@
     <MESSAGE value="fix datagrids in info" />
     <MESSAGE value="add delete row in datagrid classes" />
     <MESSAGE value="add delete row in all datagrid" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete row in all datagrid" />
+    <MESSAGE value="delete sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete sh" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
