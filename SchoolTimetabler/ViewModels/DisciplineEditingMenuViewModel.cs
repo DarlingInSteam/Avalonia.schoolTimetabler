@@ -18,7 +18,7 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
         Disciplines = new ObservableCollection<Data.Models.SchoolDiscipline>(_storage.SchoolDisciplines);
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {
-            var schoolDiscipline = new Data.Models.SchoolDiscipline( "Новая дисциплина");
+            var schoolDiscipline = new Data.Models.SchoolDiscipline("Новая дисциплина");
             _storage.AddClass(schoolDiscipline); 
             Disciplines.Add(schoolDiscipline);
             
