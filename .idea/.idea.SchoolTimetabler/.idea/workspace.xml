@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="delete sh">
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +33,14 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/90/33bd994b/Collection`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/Views/SchoolInfo.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,7 +135,8 @@
       <workItem from="1668237082208" duration="1216000" />
       <workItem from="1668340777824" duration="3060000" />
       <workItem from="1668860473277" duration="13192000" />
-      <workItem from="1668917458657" duration="20321000" />
+      <workItem from="1668917458657" duration="20409000" />
+      <workItem from="1668956437271" duration="3529000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668952168636</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="extra save">
+      <created>1668954569819</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668954569819</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,15 +394,32 @@
     <MESSAGE value="add datagrid FDB for Disciplines and Lessons" />
     <MESSAGE value="fix lessons" />
     <MESSAGE value="add information about school" />
-    <MESSAGE value="extra save" />
     <MESSAGE value="add docs" />
     <MESSAGE value="fix datagrids in info" />
     <MESSAGE value="add delete row in datagrid classes" />
     <MESSAGE value="add delete row in all datagrid" />
     <MESSAGE value="delete sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete sh" />
+    <MESSAGE value="extra save" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra save" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" initialLine="29" containingFunctionPresentation="lambda expression inside constructor 'TeacherEditingMenuViewModel'">
+            <startOffsets>
+              <option value="1435" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1442" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#ReactiveUI.ReactiveObject" memberName="Changed" />
