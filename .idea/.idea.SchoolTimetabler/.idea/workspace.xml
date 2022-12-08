@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add in info teachers with disciplines(need fix)">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTeachers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTeachers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,32 +30,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/1b/c640e62f/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/87/0d26b60d/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/90/33bd994b/Collection`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/a1/96a6bb45/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/e6/f09d3f9a/ObjectEqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/244223f311d9402b8090360e55dd990913a00/0e/b5d44ec8/ObservableCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/33df27cdc0d2d667f733942b3c2d90ca9437bb1bcae0255d6517dfc49bed9a8/AsObservable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c9e20847dfc32ac4f707ad4a422dca357bbeb2926c90f6123818d5a55dd25/Concat.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3d2f19452f9866870d3213cc665f078522038d0cc1335cc75c85425da9a3ff9/Producer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43c4ac653824846234d07b16eeab1df4319a41567f72c88a71289e2ab1897f9/Do.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4c75a39152c6ea672be27a386dbf424c0f2d222d51114dffb436ecd6b570ce/RxApp.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5028320658ac437c327e7d57cfe06dfc5a791c618d8c2bb0545639ff987b/Sink.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6b227eb303238834af2c3fb122a7e882e9349736231bacc21e165f6c9a98d45/ObservableBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72832e242b1b5b2b5f2cfe23f68fbfedefd417121b74c7b4f76b514a1c40/Observable.Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/75d9828791f39e474c67594193d0da72a24f54dc4333d5164e8a8b1550f99bd7/Unit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81d12998a2b0f1d072b9e6edfb2611ade9fd8782e48a547faaedd88587fbc59/ReactiveCommand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/94b7c1db3b15ac2eccc4c493ea3aae9d7a809d2eba1d7795c73cea92b1dd245e/NameScopeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a026bc725e8abe2fd6502c6715233c9a70cd6c1a0beefdd7909548a57cdafc/QueryLanguage.Creation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ad2cb1666df673a78739f81fd62ca624783449125e0d9f246291d15dbd2/Finally.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbebddb1f0497e0b5512d4295a4a98abb95e433a5a015b273b5ab6b798f/Catch.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e15b7d564ccc9c5bad5fff5763f6da0a5b1e2fdedf57f2958b195afcd284c/ObserverBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6ae74fafdb6857a99ccc756ccc5a7fe7656165317fa734333b7e9d6fe087f/X11PlatformThreading.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fff6e1ed391cf092a5287dc447d5c7b97ac5e542cb81df3d3126ff5b7d3d71/TailRecursiveSink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/198a6261cebc324728dcc4c178edc5f2894123f711722c80e8557cbfd27651/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
