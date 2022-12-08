@@ -7,9 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add in info teachers with disciplines(need fix)">
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTeachers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTeachers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/SchoolTeacher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +58,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbebddb1f0497e0b5512d4295a4a98abb95e433a5a015b273b5ab6b798f/Catch.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e15b7d564ccc9c5bad5fff5763f6da0a5b1e2fdedf57f2958b195afcd284c/ObserverBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6ae74fafdb6857a99ccc756ccc5a7fe7656165317fa734333b7e9d6fe087f/X11PlatformThreading.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fff6e1ed391cf092a5287dc447d5c7b97ac5e542cb81df3d3126ff5b7d3d71/TailRecursiveSink.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,29 +77,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.018799711",
-    "last_opened_file_path": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ReSpellerSettingsId",
-    "two.files.diff.last.used.folder": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.018799711&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Avalonia.schoolTimetabler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -155,6 +159,9 @@
       <workItem from="1668124287542" duration="1078000" />
       <workItem from="1668237082208" duration="1216000" />
       <workItem from="1668340777824" duration="3037000" />
+      <workItem from="1670423024279" duration="264000" />
+      <workItem from="1670423304012" duration="3088000" />
+      <workItem from="1670469629664" duration="7648000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -369,23 +376,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add in info teachers with disciplines(need fix)" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs</url>
-          <line>88</line>
-          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" initialLine="90" containingFunctionPresentation="method 'OutputClasses'">
-            <startOffsets>
-              <option value="3278" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3306" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#ReactiveUI.ReactiveObject" memberName="Changed" />
