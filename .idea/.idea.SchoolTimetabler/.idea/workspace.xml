@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="add in info teachers with disciplines(need fix)">
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseTimetable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Models/SchoolTimetable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetable.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +136,7 @@
       <workItem from="1670423024279" duration="264000" />
       <workItem from="1670423304012" duration="3088000" />
       <workItem from="1670469629664" duration="7648000" />
+      <workItem from="1670515489210" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
