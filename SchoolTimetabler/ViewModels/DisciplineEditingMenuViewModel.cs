@@ -15,17 +15,17 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
     private FDataBaseDisciplines _storage;
     private FDataBaseDisciplines _storageDisciplines;
     private int _dataGridSelectedIndex;
-    
-    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseDisciplines storage)
+
+    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel,
+        FDataBaseDisciplines storage)
     {
         _storage = storage;
         Disciplines = new ObservableCollection<Data.Models.SchoolDiscipline>(_storage.SchoolDisciplines);
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {
             var schoolDiscipline = new Data.Models.SchoolDiscipline("Новая дисциплина");
-            _storage.AddClass(schoolDiscipline); 
+            _storage.AddClass(schoolDiscipline);
             Disciplines.Add(schoolDiscipline);
-            
         });
 
         DeleteDiscipline = ReactiveCommand.Create(() =>
@@ -34,13 +34,13 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
             Disciplines.Remove(Disciplines[_dataGridSelectedIndex]);
         });
     }
-    
+
     public int DataGridSelectedIndex
-    { 
-        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value); 
-        get => _dataGridSelectedIndex; 
+    {
+        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value);
+        get => _dataGridSelectedIndex;
     }
-    
+
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }

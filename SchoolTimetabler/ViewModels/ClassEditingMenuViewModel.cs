@@ -15,15 +15,16 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
     public ReactiveCommand<Unit, Unit> DeleteClass { get; }
     private FDataBaseClasses _storage;
     private int _dataGridSelectedIndex;
-    
-    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel, FDataBaseClasses storage)
+
+    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel,
+        FDataBaseClasses storage)
     {
         _storage = storage;
         Classes = new ObservableCollection<Data.Models.SchoolClass>(_storage.SchoolClasses);
         AddNewClass = ReactiveCommand.Create(() =>
         {
             var schoolClass = new Data.Models.SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
-            _storage.AddClass(schoolClass); 
+            _storage.AddClass(schoolClass);
             Classes.Add(schoolClass);
         });
 
@@ -33,13 +34,13 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
             Classes.Remove(Classes[_dataGridSelectedIndex]);
         });
     }
-    
+
     public int DataGridSelectedIndex
-    { 
-        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value); 
-        get => _dataGridSelectedIndex; 
+    {
+        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value);
+        get => _dataGridSelectedIndex;
     }
-    
+
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }
