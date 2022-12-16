@@ -1,5 +1,11 @@
 ﻿namespace SchoolTimetabler.ViewModels;
 
-public class CreateTimetable
+public class CreateTimetable : ViewModelBase
 {
+    public CreateTimetable()
+    {
+        
+    }
+    
+    
 }
