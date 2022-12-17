@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="complete timetable info and ref code">
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="fix create timetable">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/Views/CreateTimetable.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/darling/RiderProjects/Avalonia.schoolTimetabler/SchoolTimetabler/Views/SchoolInfo.axaml" root0="SKIP_HIGHLIGHTING" />
@@ -174,7 +177,7 @@
       <workItem from="1670753341137" duration="1737000" />
       <workItem from="1670770727427" duration="279000" />
       <workItem from="1671173926898" duration="2677000" />
-      <workItem from="1671234273509" duration="32490000" />
+      <workItem from="1671234273509" duration="33247000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -386,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671297420177</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix create timetable">
+      <created>1671298075367</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1671298075367</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +430,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="refactoring code and add IsVisible method" />
     <MESSAGE value="add information user and add class user" />
     <MESSAGE value="delete folder values" />
     <MESSAGE value="add information about school and back dtn" />
@@ -445,7 +454,8 @@
     <MESSAGE value="add create timetable (need more fix)" />
     <MESSAGE value="extra save for create timetable" />
     <MESSAGE value="complete timetable info and ref code" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete timetable info and ref code" />
+    <MESSAGE value="fix create timetable" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix create timetable" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
