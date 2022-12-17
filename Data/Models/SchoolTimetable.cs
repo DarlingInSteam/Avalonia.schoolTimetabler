@@ -2,27 +2,33 @@
 
 public class SchoolTimetable
 {
-    public string TeacherMon { get; set; }
-    public string DisciplineMon { get; set; }
-    public string ClassMon { get; set; }
+    public string TeacherOne { get; set; }
+    public string DisciplineOne { get; set; }
+    public string ClassOne { get; set; }
+    public string CabinetOne { get; set; }
     
-    public string TeacherTues { get; set; }
-    public string DisciplineTues { get; set; }
-    public string ClassTues { get; set; }
+    public string TeacherTwo { get; set; }
+    public string DisciplineTwo { get; set; }
+    public string ClassTwo { get; set; }
+    public string CabinetTwo { get; set; }
     
-    public string TeacherWed { get; set; }
-    public string DisciplineWed { get; set; }
-    public string ClassWed { get; set; }
+    public string TeacherThree { get; set; }
+    public string DisciplineThree { get; set; }
+    public string ClassThree { get; set; }
+    public string CabinetThree { get; set; }
     
-    public string TeacherThur { get; set; }
-    public string DisciplineThur { get; set; }
-    public string ClassThur { get; set; }
+    public string TeacherFour { get; set; }
+    public string DisciplineFour { get; set; }
+    public string ClassFour { get; set; }
+    public string CabinetFour { get; set; }
     
-    public string TeacherFri { get; set; }
-    public string DisciplineFri { get; set; }
-    public string ClassFri { get; set; }
+    public string TeacherFive { get; set; }
+    public string DisciplineFive { get; set; }
+    public string ClassFive { get; set; }
+    public string CabinetFive { get; set; }
     
-    public string TeacherSat { get; set; }
-    public string DisciplineSat { get; set; }
-    public string ClassSat { get; set; }
+    public string TeacherSix { get; set; }
+    public string DisciplineSix { get; set; }
+    public string ClassSix  { get; set; }
+    public string CabinetSix { get; set; }
 }
