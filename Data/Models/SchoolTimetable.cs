@@ -2,6 +2,7 @@
 
 public class SchoolTimetable
 {
+    public string Day { get; set; }
     public string TeacherOne { get; set; }
     public string DisciplineOne { get; set; }
     public string ClassOne { get; set; }

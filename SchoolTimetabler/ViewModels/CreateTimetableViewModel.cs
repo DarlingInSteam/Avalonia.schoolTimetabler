@@ -117,6 +117,9 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         SaveOneTimetable = ReactiveCommand.Create(() =>
         {
             var timetable = new Data.Models.SchoolTimetable();
+
+            timetable.Day = DayOfTheWeek;
+            
             timetable.TeacherOne = TeachersName[_selectedIndexTeacherMon];
             timetable.DisciplineOne = DisciplinesTeacherMon[_selectedIndexDisciplineMon];
             timetable.CabinetOne = CabinetsNumbers[_selectedIndexCabinetMon];
@@ -188,7 +191,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     {
         switch (countDays)
         {
-            case 0 :
+            case 0:
             {
                 DayOfTheWeek = "Понедельник";
                 IsEnableBack = false;
