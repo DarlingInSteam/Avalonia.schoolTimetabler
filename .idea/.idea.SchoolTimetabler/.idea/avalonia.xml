@@ -12,6 +12,7 @@
         <entry key="Avalonia.schoolTimetabler/Views/MainWindow.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="Avalonia.schoolTimetabler/Views/TeacherEditingMenu.axaml" value="Avalonia.schoolTimetabler/Avalonia.schoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/App.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
+        <entry key="SchoolTimetabler/Views/CabinetEditingMenu.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/ClassEditingMenu.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/CreateSchoolProfile.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/CreateTimetable.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />

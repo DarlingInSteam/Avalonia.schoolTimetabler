@@ -13,13 +13,12 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
     public ReactiveCommand<Unit, Unit> DeleteDiscipline { get; }
     private FDataBaseDisciplines _storage;
-    private FDataBaseDisciplines _storageDisciplines;
     private int _dataGridSelectedIndex;
 
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel,
         FDataBaseDisciplines storage)
     {
-        _storage = storage;
+        _storage = FDataBaseDisciplines.GetInstance();
         Disciplines = new ObservableCollection<Data.Models.SchoolDiscipline>(_storage.SchoolDisciplines);
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {

@@ -23,7 +23,7 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
         Classes = new ObservableCollection<Data.Models.SchoolClass>(_storage.SchoolClasses);
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            var schoolClass = new Data.Models.SchoolClass("Новое число", "Новая буква", "Новый классный кабинет");
+            var schoolClass = new Data.Models.SchoolClass("Новое число", "Новая буква");
             _storage.AddClass(schoolClass);
             Classes.Add(schoolClass);
         });
