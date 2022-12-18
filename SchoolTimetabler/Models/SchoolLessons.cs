@@ -1,1 +1,0 @@
-using System.Collections.Generic;namespace SchoolTimetabler.Models;public class SchoolLessons{    public string Lessons { get; }}

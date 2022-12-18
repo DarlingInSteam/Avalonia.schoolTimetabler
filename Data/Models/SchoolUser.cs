@@ -1,0 +1,1 @@
+namespace Data.Models;public class SchoolUser{    public string FullName { get; set; }    public string Post { get; set; }}
