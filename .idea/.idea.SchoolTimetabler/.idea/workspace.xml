@@ -8,7 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-ThinItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,35 +87,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.018799711",
-    "last_opened_file_path": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "two.files.diff.last.used.folder": "/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.018799711&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/home/darling/RiderProjects/Avalonia.schoolTimetabler/Data&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ],
-    "rider.external.source.directories": [
-      "/home/darling/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/home/darling/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/home/darling/.local/share/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/darling/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/darling/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/darling/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RiderTodoViewSettings" groupByProject="false" />
   <component name="RunManager">
     <configuration name="Avalonia.schoolTimetabler" type="DotNetProject" factoryName=".NET Project">
@@ -176,7 +190,8 @@
       <workItem from="1671299071342" duration="21000" />
       <workItem from="1671299103312" duration="994000" />
       <workItem from="1671363415095" duration="1103000" />
-      <workItem from="1671366104089" duration="304000" />
+      <workItem from="1671366104089" duration="2372000" />
+      <workItem from="1671381342931" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
