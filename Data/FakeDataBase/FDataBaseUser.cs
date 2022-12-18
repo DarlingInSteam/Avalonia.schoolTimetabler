@@ -9,7 +9,7 @@ public class FDataBaseUser
 
     private FDataBaseUser()
     {
-        _user = new SchoolUser();
+        _user = new SchoolUser("Не задано", "Не задано");
         UserPub = _user;
     }
     
