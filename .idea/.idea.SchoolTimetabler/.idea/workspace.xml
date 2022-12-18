@@ -8,21 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/addBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/teacherAdd.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Assets/trashcan.png" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/trashcan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,7 @@
       <workItem from="1671299103312" duration="994000" />
       <workItem from="1671363415095" duration="1103000" />
       <workItem from="1671366104089" duration="2372000" />
-      <workItem from="1671381342931" duration="731000" />
+      <workItem from="1671381342931" duration="5728000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>

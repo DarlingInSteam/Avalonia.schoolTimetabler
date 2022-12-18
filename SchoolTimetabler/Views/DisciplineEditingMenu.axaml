@@ -13,7 +13,13 @@
         <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
             <TextBlock>Меню редактирования дисциплин:</TextBlock>
             <StackPanel Margin="0,10,0,5" Orientation="Horizontal">
-                <Button Command="{Binding AddNewDiscipline}" Content="Добавить дисциплину" />
+                <Button
+                    Width="40"
+                    Height="40"
+                    Background="Black"
+                    Command="{Binding AddNewDiscipline}">
+                    <Image Source="/Assets/addBtn.png" />
+                </Button>
             </StackPanel>
 
 

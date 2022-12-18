@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
 using System.Reactive;
-using System.Runtime.CompilerServices;
 using Data.FakeDataBase;
-using DynamicData;
 using ReactiveUI;
 
 namespace SchoolTimetabler.ViewModels;
@@ -136,32 +132,32 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             timetable.TeacherOne = TeachersName[_selectedIndexTeacherMon];
             timetable.DisciplineOne = DisciplinesTeacherMon[_selectedIndexDisciplineMon];
             timetable.CabinetOne = CabinetsNumbers[_selectedIndexCabinetMon];
-            timetable.ClassOne = ClassesNumber[_selectedIndexClassMon];
+            timetable.ClassOne = ClassesNumber[_selectedIndexClass];
 
             timetable.TeacherTwo = TeachersName[_selectedIndexTeacherTues];
             timetable.DisciplineTwo = DisciplinesTeacherTues[_selectedIndexDisciplineTues];
             timetable.CabinetTwo = CabinetsNumbers[_selectedIndexCabinetTues];
-            timetable.ClassTwo = ClassesNumber[_selectedIndexClassTues];
+            timetable.ClassTwo = ClassesNumber[_selectedIndexClass];
 
             timetable.TeacherThree = TeachersName[_selectedIndexTeacherWed];
             timetable.DisciplineThree = DisciplinesTeacherWed[_selectedIndexDisciplineWed];
             timetable.CabinetThree = CabinetsNumbers[_selectedIndexCabinetWed];
-            timetable.ClassThree = ClassesNumber[_selectedIndexClassWed];
+            timetable.ClassThree = ClassesNumber[_selectedIndexClass];
 
             timetable.TeacherFour = TeachersName[_selectedIndexTeacherThurs];
             timetable.DisciplineFour = DisciplinesTeacherThurs[_selectedIndexDisciplineThurs];
             timetable.CabinetFour = CabinetsNumbers[_selectedIndexCabinetThurs];
-            timetable.ClassFour = ClassesNumber[_selectedIndexClassThurs];
+            timetable.ClassFour = ClassesNumber[_selectedIndexClass];
 
             timetable.TeacherFive = TeachersName[_selectedIndexTeacherFri];
             timetable.DisciplineFive = DisciplinesTeacherFri[_selectedIndexDisciplineFri];
             timetable.CabinetFive = CabinetsNumbers[_selectedIndexCabinetFri];
-            timetable.ClassFive = ClassesNumber[_selectedIndexClassFri];
+            timetable.ClassFive = ClassesNumber[_selectedIndexClass];
 
             timetable.TeacherSix = TeachersName[_selectedIndexTeacherSat];
             timetable.DisciplineSix = DisciplinesTeacherSat[_selectedIndexDisciplineSat];
             timetable.CabinetSix = CabinetsNumbers[_selectedIndexCabinetSat];
-            timetable.ClassSix = ClassesNumber[_selectedIndexClassSat];
+            timetable.ClassSix = ClassesNumber[_selectedIndexClass];
 
             _storageTimetable.AddTimetable(timetable);
         });
@@ -170,32 +166,26 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private void ChangeIndexes()
     {
         SelectedIndexCabinetMon = 0;
-        SelectedIndexClassMon = 0;
         SelectedIndexDisciplineMon = 0;
         SelectedIndexTeacherMon = 0;
 
         SelectedIndexCabinetTues = 0;
-        SelectedIndexClassTues = 0;
         SelectedIndexDisciplineTues = 0;
         SelectedIndexTeacherTues = 0;
 
         SelectedIndexCabinetWed = 0;
-        SelectedIndexClassWed = 0;
         SelectedIndexDisciplineWed = 0;
         SelectedIndexTeacherWed = 0;
 
         SelectedIndexCabinetThurs = 0;
-        SelectedIndexClassThurs = 0;
         SelectedIndexDisciplineThurs = 0;
         SelectedIndexTeacherThurs = 0;
 
         SelectedIndexCabinetFri = 0;
-        SelectedIndexClassFri = 0;
         SelectedIndexDisciplineFri = 0;
         SelectedIndexTeacherFri = 0;
 
         SelectedIndexCabinetSat = 0;
-        SelectedIndexClassSat = 0;
         SelectedIndexDisciplineSat = 0;
         SelectedIndexTeacherSat = 0;
     }
@@ -272,10 +262,10 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         get => _selectedIndexCabinetMon;
     }
 
-    public int SelectedIndexClassMon
+    public int SelectedIndexClass
     {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassMon, value);
-        get => _selectedIndexClassMon;
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexClass, value);
+        get => _selectedIndexClass;
     }
 
     public int SelectedIndexTeacherTues
@@ -304,12 +294,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         get => _selectedIndexCabinetTues;
     }
 
-    public int SelectedIndexClassTues
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassTues, value);
-        get => _selectedIndexClassTues;
-    }
-
     public int SelectedIndexTeacherWed
     {
         set
@@ -334,12 +318,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     {
         set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetWed, value);
         get => _selectedIndexCabinetWed;
-    }
-
-    public int SelectedIndexClassWed
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassWed, value);
-        get => _selectedIndexClassWed;
     }
 
     public int SelectedIndexTeacherThurs
@@ -368,12 +346,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         get => _selectedIndexCabinetThurs;
     }
 
-    public int SelectedIndexClassThurs
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassThurs, value);
-        get => _selectedIndexClassThurs;
-    }
-
     public int SelectedIndexTeacherFri
     {
         set
@@ -398,12 +370,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     {
         set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetFri, value);
         get => _selectedIndexCabinetFri;
-    }
-
-    public int SelectedIndexClassFri
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassFri, value);
-        get => _selectedIndexClassFri;
     }
 
     public int SelectedIndexTeacherSat
@@ -432,12 +398,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         get => _selectedIndexCabinetSat;
     }
 
-    public int SelectedIndexClassSat
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClassSat, value);
-        get => _selectedIndexClassSat;
-    }
-
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }
@@ -445,25 +405,20 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherMon;
     private int _selectedIndexDisciplineMon;
     private int _selectedIndexCabinetMon;
-    private int _selectedIndexClassMon;
     private int _selectedIndexTeacherTues;
     private int _selectedIndexDisciplineTues;
     private int _selectedIndexCabinetTues;
-    private int _selectedIndexClassTues;
     private int _selectedIndexTeacherWed;
     private int _selectedIndexDisciplineWed;
     private int _selectedIndexCabinetWed;
-    private int _selectedIndexClassWed;
     private int _selectedIndexTeacherThurs;
     private int _selectedIndexDisciplineThurs;
     private int _selectedIndexCabinetThurs;
-    private int _selectedIndexClassThurs;
     private int _selectedIndexTeacherFri;
     private int _selectedIndexDisciplineFri;
     private int _selectedIndexCabinetFri;
-    private int _selectedIndexClassFri;
     private int _selectedIndexTeacherSat;
     private int _selectedIndexDisciplineSat;
     private int _selectedIndexCabinetSat;
-    private int _selectedIndexClassSat;
+    private int _selectedIndexClass;
 }

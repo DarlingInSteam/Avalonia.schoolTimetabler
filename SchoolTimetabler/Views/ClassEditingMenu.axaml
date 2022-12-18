@@ -13,7 +13,13 @@
         <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
             <TextBlock>Меню редактирования классов:</TextBlock>
             <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
-                <Button Command="{Binding AddNewClass}" Content="Добавить класс" />
+                <Button
+                    Width="40"
+                    Height="40"
+                    Background="Black"
+                    Command="{Binding AddNewClass}">
+                    <Image Source="/Assets/addBtn.png" />
+                </Button>
             </StackPanel>
 
             <Border
