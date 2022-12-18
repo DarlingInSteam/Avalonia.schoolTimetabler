@@ -1,56 +1,41 @@
 ﻿using System.Collections.ObjectModel;
 using System.Reactive;
 using Data.FakeDataBase;
+using Data.Models;
 using ReactiveUI;
 
 namespace SchoolTimetabler.ViewModels;
 
 public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    private FDataBaseTimetable _storageTimetable;
-    private FDataBaseCabinets _storageCabinets;
-    private FDataBaseTeachers _storageTeachers;
-    private FDataBaseClasses _storageClasses;
     private string _dayOfTheWeek = "Понедельник";
+    private bool _isEnableBack;
     private bool _isEnableNext = true;
-    private bool _isEnableBack = false;
-    private int countDays = 0;
+    private int _selectedIndexCabinetFri;
+    private int _selectedIndexCabinetMon;
+    private int _selectedIndexCabinetSat;
+    private int _selectedIndexCabinetThurs;
+    private int _selectedIndexCabinetTues;
+    private int _selectedIndexCabinetWed;
+    private int _selectedIndexClass;
+    private int _selectedIndexDisciplineFri;
+    private int _selectedIndexDisciplineMon;
+    private int _selectedIndexDisciplineSat;
+    private int _selectedIndexDisciplineThurs;
+    private int _selectedIndexDisciplineTues;
+    private int _selectedIndexDisciplineWed;
+    private int _selectedIndexTeacherFri;
 
-    public string DayOfTheWeek
-    {
-        set => this.RaiseAndSetIfChanged(ref _dayOfTheWeek, value);
-        get => _dayOfTheWeek;
-    }
-
-    public bool IsEnableNext
-    {
-        set => this.RaiseAndSetIfChanged(ref _isEnableNext, value);
-        get => _isEnableNext;
-    }
-
-    public bool IsEnableBack
-    {
-        set => this.RaiseAndSetIfChanged(ref _isEnableBack, value);
-        get => _isEnableBack;
-    }
-
-    public ObservableCollection<string> DisciplinesTeacherMon { get; }
-    public ObservableCollection<string> DisciplinesTeacherTues { get; }
-    public ObservableCollection<string> DisciplinesTeacherWed { get; }
-    public ObservableCollection<string> DisciplinesTeacherThurs { get; }
-    public ObservableCollection<string> DisciplinesTeacherFri { get; }
-    public ObservableCollection<string> DisciplinesTeacherSat { get; }
-
-    public ObservableCollection<Data.Models.SchoolTeachers> Teachers { get; }
-    public ObservableCollection<string> TeachersName { get; set; }
-    public ObservableCollection<Data.Models.SchoolCabinet> Cabinets { get; }
-    public ObservableCollection<string> CabinetsNumbers { get; set; }
-    public ObservableCollection<Data.Models.SchoolClass> Classes { get; }
-    public ObservableCollection<string> ClassesNumber { get; set; }
-
-    public ReactiveCommand<Unit, Unit> SaveOneTimetable { get; }
-    public ReactiveCommand<Unit, Unit> NextDay { get; }
-    public ReactiveCommand<Unit, Unit> BackDay { get; }
+    private int _selectedIndexTeacherMon;
+    private int _selectedIndexTeacherSat;
+    private int _selectedIndexTeacherThurs;
+    private int _selectedIndexTeacherTues;
+    private int _selectedIndexTeacherWed;
+    private readonly FDataBaseCabinets _storageCabinets;
+    private readonly FDataBaseClasses _storageClasses;
+    private readonly FDataBaseTeachers _storageTeachers;
+    private readonly FDataBaseTimetable _storageTimetable;
+    private int countDays;
 
     public CreateTimetableViewModel(IScreen hostScreen)
     {
@@ -68,14 +53,13 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         DisciplinesTeacherWed = new ObservableCollection<string>();
 
         TeachersName = new ObservableCollection<string>();
-        Teachers = new ObservableCollection<Data.Models.SchoolTeachers>(_storageTeachers.SchoolTeachers);
+        Teachers = new ObservableCollection<SchoolTeachers>(_storageTeachers.SchoolTeachers);
         CabinetsNumbers = new ObservableCollection<string>();
-        Cabinets = new ObservableCollection<Data.Models.SchoolCabinet>(_storageCabinets.SchoolCabinets);
+        Cabinets = new ObservableCollection<SchoolCabinet>(_storageCabinets.SchoolCabinets);
         ClassesNumber = new ObservableCollection<string>();
-        Classes = new ObservableCollection<Data.Models.SchoolClass>(_storageClasses.SchoolClasses);
+        Classes = new ObservableCollection<SchoolClass>(_storageClasses.SchoolClasses);
 
         if (Teachers.Count != 0)
-        {
             foreach (var t in Teachers[0].TeacherDisciplines)
             {
                 DisciplinesTeacherMon.Add(t);
@@ -85,26 +69,14 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 DisciplinesTeacherTues.Add(t);
                 DisciplinesTeacherWed.Add(t);
             }
-        }
         else
-        {
             IsEnableNext = false;
-        }
 
-        foreach (var t in Classes)
-        {
-            ClassesNumber.Add(t.Number + t.Symbol);
-        }
+        foreach (var t in Classes) ClassesNumber.Add(t.Number + t.Symbol);
 
-        foreach (var t in Teachers)
-        {
-            TeachersName.Add(t.TeacherFullName);
-        }
+        foreach (var t in Teachers) TeachersName.Add(t.TeacherFullName);
 
-        foreach (var t in Cabinets)
-        {
-            CabinetsNumbers.Add(t.CabinetNumber);
-        }
+        foreach (var t in Cabinets) CabinetsNumbers.Add(t.CabinetNumber);
 
         BackDay = ReactiveCommand.Create(() =>
         {
@@ -124,7 +96,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
         SaveOneTimetable = ReactiveCommand.Create(() =>
         {
-            var timetable = new Data.Models.SchoolTimetable();
+            var timetable = new SchoolTimetable();
 
             timetable.Day = DayOfTheWeek;
 
@@ -161,6 +133,190 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             _storageTimetable.AddTimetable(timetable);
         });
     }
+
+    public string DayOfTheWeek
+    {
+        set => this.RaiseAndSetIfChanged(ref _dayOfTheWeek, value);
+        get => _dayOfTheWeek;
+    }
+
+    public bool IsEnableNext
+    {
+        set => this.RaiseAndSetIfChanged(ref _isEnableNext, value);
+        get => _isEnableNext;
+    }
+
+    public bool IsEnableBack
+    {
+        set => this.RaiseAndSetIfChanged(ref _isEnableBack, value);
+        get => _isEnableBack;
+    }
+
+    public ObservableCollection<string> DisciplinesTeacherMon { get; }
+    public ObservableCollection<string> DisciplinesTeacherTues { get; }
+    public ObservableCollection<string> DisciplinesTeacherWed { get; }
+    public ObservableCollection<string> DisciplinesTeacherThurs { get; }
+    public ObservableCollection<string> DisciplinesTeacherFri { get; }
+    public ObservableCollection<string> DisciplinesTeacherSat { get; }
+
+    public ObservableCollection<SchoolTeachers> Teachers { get; }
+    public ObservableCollection<string> TeachersName { get; set; }
+    public ObservableCollection<SchoolCabinet> Cabinets { get; }
+    public ObservableCollection<string> CabinetsNumbers { get; set; }
+    public ObservableCollection<SchoolClass> Classes { get; }
+    public ObservableCollection<string> ClassesNumber { get; set; }
+
+    public ReactiveCommand<Unit, Unit> SaveOneTimetable { get; }
+    public ReactiveCommand<Unit, Unit> NextDay { get; }
+    public ReactiveCommand<Unit, Unit> BackDay { get; }
+
+    public int SelectedIndexTeacherMon
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherMon, value);
+            DisciplinesTeacherMon.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherMon].TeacherDisciplines) DisciplinesTeacherMon.Add(t);
+        }
+        get => _selectedIndexTeacherMon;
+    }
+
+    public int SelectedIndexDisciplineMon
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineMon, value);
+        get => _selectedIndexDisciplineMon;
+    }
+
+    public int SelectedIndexCabinetMon
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetMon, value);
+        get => _selectedIndexCabinetMon;
+    }
+
+    public int SelectedIndexClass
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexClass, value);
+        get => _selectedIndexClass;
+    }
+
+    public int SelectedIndexTeacherTues
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherTues, value);
+            DisciplinesTeacherTues.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherTues].TeacherDisciplines) DisciplinesTeacherTues.Add(t);
+        }
+        get => _selectedIndexTeacherTues;
+    }
+
+    public int SelectedIndexDisciplineTues
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineTues, value);
+        get => _selectedIndexDisciplineTues;
+    }
+
+    public int SelectedIndexCabinetTues
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetTues, value);
+        get => _selectedIndexCabinetTues;
+    }
+
+    public int SelectedIndexTeacherWed
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherWed, value);
+            DisciplinesTeacherWed.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherWed].TeacherDisciplines) DisciplinesTeacherWed.Add(t);
+        }
+        get => _selectedIndexTeacherWed;
+    }
+
+    public int SelectedIndexDisciplineWed
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineWed, value);
+        get => _selectedIndexDisciplineWed;
+    }
+
+    public int SelectedIndexCabinetWed
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetWed, value);
+        get => _selectedIndexCabinetWed;
+    }
+
+    public int SelectedIndexTeacherThurs
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherThurs, value);
+            DisciplinesTeacherThurs.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherThurs].TeacherDisciplines) DisciplinesTeacherThurs.Add(t);
+        }
+        get => _selectedIndexTeacherThurs;
+    }
+
+    public int SelectedIndexDisciplineThurs
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineThurs, value);
+        get => _selectedIndexDisciplineThurs;
+    }
+
+    public int SelectedIndexCabinetThurs
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetThurs, value);
+        get => _selectedIndexCabinetThurs;
+    }
+
+    public int SelectedIndexTeacherFri
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherFri, value);
+            DisciplinesTeacherFri.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherFri].TeacherDisciplines) DisciplinesTeacherFri.Add(t);
+        }
+        get => _selectedIndexTeacherFri;
+    }
+
+    public int SelectedIndexDisciplineFri
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineFri, value);
+        get => _selectedIndexDisciplineFri;
+    }
+
+    public int SelectedIndexCabinetFri
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetFri, value);
+        get => _selectedIndexCabinetFri;
+    }
+
+    public int SelectedIndexTeacherSat
+    {
+        set
+        {
+            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherSat, value);
+            DisciplinesTeacherSat.Clear();
+            foreach (var t in Teachers[_selectedIndexTeacherSat].TeacherDisciplines) DisciplinesTeacherSat.Add(t);
+        }
+        get => _selectedIndexTeacherSat;
+    }
+
+    public int SelectedIndexDisciplineSat
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineSat, value);
+        get => _selectedIndexDisciplineSat;
+    }
+
+    public int SelectedIndexCabinetSat
+    {
+        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetSat, value);
+        get => _selectedIndexCabinetSat;
+    }
+
+    public string? UrlPathSegment { get; }
+    public IScreen HostScreen { get; }
+    public RoutingState Router { get; }
 
     private void ChangeIndexes()
     {
@@ -234,190 +390,4 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             }
         }
     }
-
-    public int SelectedIndexTeacherMon
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherMon, value);
-            DisciplinesTeacherMon.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherMon].TeacherDisciplines)
-            {
-                DisciplinesTeacherMon.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherMon;
-    }
-
-    public int SelectedIndexDisciplineMon
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineMon, value);
-        get => _selectedIndexDisciplineMon;
-    }
-
-    public int SelectedIndexCabinetMon
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetMon, value);
-        get => _selectedIndexCabinetMon;
-    }
-
-    public int SelectedIndexClass
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexClass, value);
-        get => _selectedIndexClass;
-    }
-
-    public int SelectedIndexTeacherTues
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherTues, value);
-            DisciplinesTeacherTues.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherTues].TeacherDisciplines)
-            {
-                DisciplinesTeacherTues.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherTues;
-    }
-
-    public int SelectedIndexDisciplineTues
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineTues, value);
-        get => _selectedIndexDisciplineTues;
-    }
-
-    public int SelectedIndexCabinetTues
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetTues, value);
-        get => _selectedIndexCabinetTues;
-    }
-
-    public int SelectedIndexTeacherWed
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherWed, value);
-            DisciplinesTeacherWed.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherWed].TeacherDisciplines)
-            {
-                DisciplinesTeacherWed.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherWed;
-    }
-
-    public int SelectedIndexDisciplineWed
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineWed, value);
-        get => _selectedIndexDisciplineWed;
-    }
-
-    public int SelectedIndexCabinetWed
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetWed, value);
-        get => _selectedIndexCabinetWed;
-    }
-
-    public int SelectedIndexTeacherThurs
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherThurs, value);
-            DisciplinesTeacherThurs.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherThurs].TeacherDisciplines)
-            {
-                DisciplinesTeacherThurs.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherThurs;
-    }
-
-    public int SelectedIndexDisciplineThurs
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineThurs, value);
-        get => _selectedIndexDisciplineThurs;
-    }
-
-    public int SelectedIndexCabinetThurs
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetThurs, value);
-        get => _selectedIndexCabinetThurs;
-    }
-
-    public int SelectedIndexTeacherFri
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherFri, value);
-            DisciplinesTeacherFri.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherFri].TeacherDisciplines)
-            {
-                DisciplinesTeacherFri.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherFri;
-    }
-
-    public int SelectedIndexDisciplineFri
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineFri, value);
-        get => _selectedIndexDisciplineFri;
-    }
-
-    public int SelectedIndexCabinetFri
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetFri, value);
-        get => _selectedIndexCabinetFri;
-    }
-
-    public int SelectedIndexTeacherSat
-    {
-        set
-        {
-            this.RaiseAndSetIfChanged(ref _selectedIndexTeacherSat, value);
-            DisciplinesTeacherSat.Clear();
-            foreach (var t in Teachers[_selectedIndexTeacherSat].TeacherDisciplines)
-            {
-                DisciplinesTeacherSat.Add(t);
-            }
-        }
-        get => _selectedIndexTeacherSat;
-    }
-
-    public int SelectedIndexDisciplineSat
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexDisciplineSat, value);
-        get => _selectedIndexDisciplineSat;
-    }
-
-    public int SelectedIndexCabinetSat
-    {
-        set => this.RaiseAndSetIfChanged(ref _selectedIndexCabinetSat, value);
-        get => _selectedIndexCabinetSat;
-    }
-
-    public string? UrlPathSegment { get; }
-    public IScreen HostScreen { get; }
-    public RoutingState Router { get; }
-
-    private int _selectedIndexTeacherMon;
-    private int _selectedIndexDisciplineMon;
-    private int _selectedIndexCabinetMon;
-    private int _selectedIndexTeacherTues;
-    private int _selectedIndexDisciplineTues;
-    private int _selectedIndexCabinetTues;
-    private int _selectedIndexTeacherWed;
-    private int _selectedIndexDisciplineWed;
-    private int _selectedIndexCabinetWed;
-    private int _selectedIndexTeacherThurs;
-    private int _selectedIndexDisciplineThurs;
-    private int _selectedIndexCabinetThurs;
-    private int _selectedIndexTeacherFri;
-    private int _selectedIndexDisciplineFri;
-    private int _selectedIndexCabinetFri;
-    private int _selectedIndexTeacherSat;
-    private int _selectedIndexDisciplineSat;
-    private int _selectedIndexCabinetSat;
-    private int _selectedIndexClass;
 }

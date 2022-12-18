@@ -4,14 +4,16 @@ namespace Data.FakeDataBase;
 
 public class FDataBaseUser
 {
+    private static FDataBaseUser? _instance;
     private readonly SchoolUser _user;
-    public SchoolUser UserPub { get; set; }
 
     private FDataBaseUser()
     {
         _user = new SchoolUser("Не задано", "Не задано");
         UserPub = _user;
     }
+
+    public SchoolUser UserPub { get; set; }
 
     public void AddUser(SchoolUser user)
     {
@@ -31,6 +33,4 @@ public class FDataBaseUser
     {
         return _instance ??= new FDataBaseUser();
     }
-
-    private static FDataBaseUser? _instance = null;
 }

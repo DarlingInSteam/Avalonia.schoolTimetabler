@@ -1,19 +1,20 @@
 ﻿using System.Collections.ObjectModel;
 using Data.Models;
-using Domain.Common;
 
 namespace Data.FakeDataBase;
 
 public class FDataBaseTimetable
 {
+    private static FDataBaseTimetable? _instance;
     private readonly List<SchoolTimetable> _schoolTimetables;
-    public IEnumerable<SchoolTimetable> SchoolTimetables { get; set; }
 
     private FDataBaseTimetable()
     {
         _schoolTimetables = new List<SchoolTimetable>();
         SchoolTimetables = _schoolTimetables;
     }
+
+    public IEnumerable<SchoolTimetable> SchoolTimetables { get; set; }
 
     public void AddTimetable(SchoolTimetable schoolTimetable)
     {
@@ -25,7 +26,6 @@ public class FDataBaseTimetable
     {
         var disciplines = new ObservableCollection<string>();
         foreach (var t in _schoolTimetables)
-        {
             if (t.Day == day && t.ClassOne == classNumber)
             {
                 disciplines.Add(t.DisciplineOne);
@@ -35,7 +35,6 @@ public class FDataBaseTimetable
                 disciplines.Add(t.DisciplineFive);
                 disciplines.Add(t.DisciplineSix);
             }
-        }
 
         return disciplines;
     }
@@ -45,7 +44,6 @@ public class FDataBaseTimetable
         var teachers = new ObservableCollection<string>();
 
         foreach (var t in _schoolTimetables)
-        {
             if (t.Day == day && t.ClassOne == classNumber)
             {
                 teachers.Add(t.TeacherOne);
@@ -55,7 +53,6 @@ public class FDataBaseTimetable
                 teachers.Add(t.TeacherFive);
                 teachers.Add(t.TeacherSix);
             }
-        }
 
         return teachers;
     }
@@ -65,7 +62,6 @@ public class FDataBaseTimetable
         var cabinets = new ObservableCollection<string>();
 
         foreach (var t in _schoolTimetables)
-        {
             if (t.Day == day && t.ClassOne == classNumber)
             {
                 cabinets.Add(t.CabinetOne);
@@ -75,7 +71,6 @@ public class FDataBaseTimetable
                 cabinets.Add(t.CabinetFive);
                 cabinets.Add(t.CabinetSix);
             }
-        }
 
         return cabinets;
     }
@@ -85,7 +80,6 @@ public class FDataBaseTimetable
         var classes = new ObservableCollection<string>();
 
         foreach (var t in _schoolTimetables)
-        {
             if (t.Day == day && t.ClassOne == classNumber)
             {
                 classes.Add(t.ClassOne);
@@ -95,7 +89,6 @@ public class FDataBaseTimetable
                 classes.Add(t.ClassFive);
                 classes.Add(t.ClassSix);
             }
-        }
 
         return classes;
     }
@@ -104,6 +97,4 @@ public class FDataBaseTimetable
     {
         return _instance ??= new FDataBaseTimetable();
     }
-
-    private static FDataBaseTimetable? _instance = null;
 }
