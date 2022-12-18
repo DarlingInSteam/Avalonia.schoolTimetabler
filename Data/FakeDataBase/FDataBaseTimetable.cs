@@ -14,7 +14,7 @@ public class FDataBaseTimetable
         _schoolTimetables = new List<SchoolTimetable>();
         SchoolTimetables = _schoolTimetables;
     }
-    
+
     public void AddTimetable(SchoolTimetable schoolTimetable)
     {
         _schoolTimetables.Add(schoolTimetable);
@@ -39,11 +39,11 @@ public class FDataBaseTimetable
 
         return disciplines;
     }
-    
-    public  ObservableCollection<string> GetTeacher(string day, string classNumber)
+
+    public ObservableCollection<string> GetTeacher(string day, string classNumber)
     {
         var teachers = new ObservableCollection<string>();
-        
+
         foreach (var t in _schoolTimetables)
         {
             if (t.Day == day && t.ClassOne == classNumber)
@@ -60,10 +60,10 @@ public class FDataBaseTimetable
         return teachers;
     }
 
-    public  ObservableCollection<string> GetCabinet(string day, string classNumber)
+    public ObservableCollection<string> GetCabinet(string day, string classNumber)
     {
         var cabinets = new ObservableCollection<string>();
-        
+
         foreach (var t in _schoolTimetables)
         {
             if (t.Day == day && t.ClassOne == classNumber)
@@ -79,11 +79,11 @@ public class FDataBaseTimetable
 
         return cabinets;
     }
-    
-    public  ObservableCollection<string> GetClass(string day, string classNumber)
+
+    public ObservableCollection<string> GetClass(string day, string classNumber)
     {
         var classes = new ObservableCollection<string>();
-        
+
         foreach (var t in _schoolTimetables)
         {
             if (t.Day == day && t.ClassOne == classNumber)
@@ -99,7 +99,7 @@ public class FDataBaseTimetable
 
         return classes;
     }
-    
+
     public static FDataBaseTimetable GetInstance()
     {
         return _instance ??= new FDataBaseTimetable();

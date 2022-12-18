@@ -1,1 +1,1 @@
-namespace Domain.Common;public class User{    }
+namespace Domain.Common;public class User{}

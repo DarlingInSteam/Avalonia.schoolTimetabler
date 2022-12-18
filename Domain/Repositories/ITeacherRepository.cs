@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public class ITeacherRepository{    }
+namespace Domain.Repositories;public class ITeacherRepository{}

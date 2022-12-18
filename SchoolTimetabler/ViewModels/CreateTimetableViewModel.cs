@@ -84,7 +84,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 DisciplinesTeacherThurs.Add(t);
                 DisciplinesTeacherTues.Add(t);
                 DisciplinesTeacherWed.Add(t);
-
             }
         }
         else

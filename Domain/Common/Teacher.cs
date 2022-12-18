@@ -1,1 +1,1 @@
-namespace Domain.Common;public class Teacher{    }
+namespace Domain.Common;public class Teacher{}

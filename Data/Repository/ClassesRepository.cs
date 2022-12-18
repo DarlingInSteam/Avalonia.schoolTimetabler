@@ -1,1 +1,1 @@
-namespace Data.Repository;public class ClassesRepository{     }
+namespace Data.Repository;public class ClassesRepository{}
