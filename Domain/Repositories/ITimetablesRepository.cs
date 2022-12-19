@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface ITimetablesRepository<T> : IBaseRepository<T>{    }
+namespace Domain.Repositories;public interface ITimetablesRepository<T> : IBaseRepository<T>{    List<string> GetDisciplines(string day, string classNumber);    List<string> GetTeacher(string day, string classNumber);    List<string> GetCabinet(string day, string classNumber);    List<string> GetClass(string day, string classNumber);}

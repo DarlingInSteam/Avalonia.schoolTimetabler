@@ -1,7 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Reactive;
-using Data.FakeDataBase;
-using Data.Models;
 using Data.Repositories;
 using Data.Repository;
 using Domain.Entities;
@@ -38,13 +36,13 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private readonly CabinetInteractor _cabinetInteractor;
     private readonly ClassInteractor _classInteractor;
     private readonly TeacherInteractor _teacherInteractor;
-    private readonly FDataBaseTimetable _storageTimetable;
+    private readonly TimetableInteractor _timetableInteractor;
     private int countDays;
 
     public CreateTimetableViewModel(IScreen hostScreen)
     {
         HostScreen = hostScreen;
-        _storageTimetable = FDataBaseTimetable.GetInstance();
+        _timetableInteractor = new TimetableInteractor(TimetablesRepository.GetInstance());
         _teacherInteractor = new TeacherInteractor(TeacherRepository.GetInstance());
         _cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
         _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
@@ -100,7 +98,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
         SaveOneTimetable = ReactiveCommand.Create(() =>
         {
-            var timetable = new SchoolTimetable();
+            var timetable = new Timetable();
 
             timetable.Day = DayOfTheWeek;
 
@@ -134,7 +132,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             timetable.CabinetSix = CabinetsNumbers[_selectedIndexCabinetSat];
             timetable.ClassSix = ClassesNumber[_selectedIndexClass];
 
-            _storageTimetable.AddTimetable(timetable);
+            _timetableInteractor.AddTimetable(timetable);
         });
     }
 

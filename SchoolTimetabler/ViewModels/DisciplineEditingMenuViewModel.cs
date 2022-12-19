@@ -1,7 +1,5 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
-using Data.FakeDataBase;
-using Data.Models;
 using Data.Repositories;
 using Domain.Entities;
 using Domain.UseCases;
