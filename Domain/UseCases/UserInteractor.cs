@@ -1,0 +1,1 @@
+namespace Domain.UseCases;public class UserInteractor{    }

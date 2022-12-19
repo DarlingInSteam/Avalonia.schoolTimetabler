@@ -1,0 +1,1 @@
+namespace Domain.Repositories;public interface ICabinetsRepository{    }

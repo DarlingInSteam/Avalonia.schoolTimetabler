@@ -1,0 +1,1 @@
+namespace Domain.Entities;public class Teacher{    public Teacher(string teacherFullName)    {        TeacherFullName = teacherFullName;    }    public List<string> TeacherDisciplines { get; set; }    public string TeacherFullName { get; set; }}

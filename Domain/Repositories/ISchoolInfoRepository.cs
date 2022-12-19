@@ -1,0 +1,1 @@
+namespace Domain.Repositories;public interface ISchoolInfoRepository<T>{    void Delete(T removableEntity);    void Add(T newEntity);    T GetSchoolInfo();}
