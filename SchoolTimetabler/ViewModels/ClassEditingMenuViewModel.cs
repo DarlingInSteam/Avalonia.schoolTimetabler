@@ -2,6 +2,9 @@ using System.Collections.ObjectModel;
 using System.Reactive;
 using Data.FakeDataBase;
 using Data.Models;
+using Data.Repository;
+using Domain.Entities;
+using Domain.UseCases;
 using ReactiveUI;
 
 namespace SchoolTimetabler.ViewModels;
@@ -9,28 +12,27 @@ namespace SchoolTimetabler.ViewModels;
 public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
     private int _dataGridSelectedIndex;
-    private readonly FDataBaseClasses _storage;
+    private readonly ClassInteractor _classInteractor;
 
-    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel,
-        FDataBaseClasses storage)
+    public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        _storage = storage;
-        Classes = new ObservableCollection<SchoolClass>(_storage.SchoolClasses);
+        _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
+        Classes = new ObservableCollection<Class>(_classInteractor.GetClasses());
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            var schoolClass = new SchoolClass("Новое число", "Новая буква");
-            _storage.AddClass(schoolClass);
+            var schoolClass = new Class("Новое число", "Новая буква", _classInteractor.GetClasses().Count);
+            _classInteractor.AddClass(schoolClass);
             Classes.Add(schoolClass);
         });
 
         DeleteClass = ReactiveCommand.Create(() =>
         {
-            _storage.DeleteClass(_dataGridSelectedIndex);
+            _classInteractor.DelClass(Classes[_dataGridSelectedIndex]);
             Classes.Remove(Classes[_dataGridSelectedIndex]);
         });
     }
 
-    public ObservableCollection<SchoolClass> Classes { get; set; }
+    public ObservableCollection<Class> Classes { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
     public ReactiveCommand<Unit, Unit> DeleteClass { get; }
 

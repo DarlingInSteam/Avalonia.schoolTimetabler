@@ -3,6 +3,7 @@ using System.Reactive;
 using Data.FakeDataBase;
 using Data.Models;
 using Data.Repositories;
+using Data.Repository;
 using Domain.Entities;
 using Domain.UseCases;
 using ReactiveUI;
@@ -35,7 +36,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherTues;
     private int _selectedIndexTeacherWed;
     private readonly CabinetInteractor _cabinetInteractor;
-    private readonly FDataBaseClasses _storageClasses;
+    private readonly ClassInteractor _classInteractor;
     private readonly FDataBaseTeachers _storageTeachers;
     private readonly FDataBaseTimetable _storageTimetable;
     private int countDays;
@@ -46,7 +47,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         _storageTimetable = FDataBaseTimetable.GetInstance();
         _storageTeachers = FDataBaseTeachers.GetInstance();
         _cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
-        _storageClasses = FDataBaseClasses.GetInstance();
+        _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
 
         DisciplinesTeacherMon = new ObservableCollection<string>();
         DisciplinesTeacherSat = new ObservableCollection<string>();
@@ -60,7 +61,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         CabinetsNumbers = new ObservableCollection<string>();
         Cabinets = new ObservableCollection<Cabinet>(_cabinetInteractor.GetCabinets());
         ClassesNumber = new ObservableCollection<string>();
-        Classes = new ObservableCollection<SchoolClass>(_storageClasses.SchoolClasses);
+        Classes = new ObservableCollection<Class>(_classInteractor.GetClasses());
 
         if (Teachers.Count != 0)
             foreach (var t in Teachers[0].TeacherDisciplines)
@@ -166,7 +167,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     public ObservableCollection<string> TeachersName { get; set; }
     public ObservableCollection<Cabinet> Cabinets { get; }
     public ObservableCollection<string> CabinetsNumbers { get; set; }
-    public ObservableCollection<SchoolClass> Classes { get; }
+    public ObservableCollection<Class> Classes { get; }
     public ObservableCollection<string> ClassesNumber { get; set; }
 
     public ReactiveCommand<Unit, Unit> SaveOneTimetable { get; }
