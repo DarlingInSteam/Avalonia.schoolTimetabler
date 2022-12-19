@@ -1,1 +1,0 @@
-namespace Data.Models;public class SchoolCabinet{    public SchoolCabinet(string cabinetNumber)    {        CabinetNumber = cabinetNumber;    }    public string CabinetNumber { get; set; }}

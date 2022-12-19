@@ -9,11 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseCabinets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolCabinet.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ICabinetsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/ICabinetsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ISchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/ISchoolInfoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

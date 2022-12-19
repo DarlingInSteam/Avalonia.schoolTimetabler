@@ -2,6 +2,9 @@
 using System.Reactive;
 using Data.FakeDataBase;
 using Data.Models;
+using Data.Repositories;
+using Domain.Entities;
+using Domain.UseCases;
 using ReactiveUI;
 
 namespace SchoolTimetabler.ViewModels;
@@ -31,7 +34,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherThurs;
     private int _selectedIndexTeacherTues;
     private int _selectedIndexTeacherWed;
-    private readonly FDataBaseCabinets _storageCabinets;
+    private readonly CabinetInteractor _cabinetInteractor;
     private readonly FDataBaseClasses _storageClasses;
     private readonly FDataBaseTeachers _storageTeachers;
     private readonly FDataBaseTimetable _storageTimetable;
@@ -42,7 +45,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         HostScreen = hostScreen;
         _storageTimetable = FDataBaseTimetable.GetInstance();
         _storageTeachers = FDataBaseTeachers.GetInstance();
-        _storageCabinets = FDataBaseCabinets.GetInstance();
+        _cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
         _storageClasses = FDataBaseClasses.GetInstance();
 
         DisciplinesTeacherMon = new ObservableCollection<string>();
@@ -55,7 +58,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         TeachersName = new ObservableCollection<string>();
         Teachers = new ObservableCollection<SchoolTeachers>(_storageTeachers.SchoolTeachers);
         CabinetsNumbers = new ObservableCollection<string>();
-        Cabinets = new ObservableCollection<SchoolCabinet>(_storageCabinets.SchoolCabinets);
+        Cabinets = new ObservableCollection<Cabinet>(_cabinetInteractor.GetCabinets());
         ClassesNumber = new ObservableCollection<string>();
         Classes = new ObservableCollection<SchoolClass>(_storageClasses.SchoolClasses);
 
@@ -161,7 +164,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
     public ObservableCollection<SchoolTeachers> Teachers { get; }
     public ObservableCollection<string> TeachersName { get; set; }
-    public ObservableCollection<SchoolCabinet> Cabinets { get; }
+    public ObservableCollection<Cabinet> Cabinets { get; }
     public ObservableCollection<string> CabinetsNumbers { get; set; }
     public ObservableCollection<SchoolClass> Classes { get; }
     public ObservableCollection<string> ClassesNumber { get; set; }
