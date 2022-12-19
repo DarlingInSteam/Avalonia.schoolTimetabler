@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface ICabinetsRepository{    }
+using Domain.Entities;namespace Domain.Repositories;public interface ICabinetsRepository<T>{    void Delete(T delEntity);    void Add(T newEntity);    List<T> Read();}
