@@ -8,46 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Cabinet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Class.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Discipline.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/SchoolInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Timetable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ICabinetsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/IDisciplinesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ISchoolInfoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ITeachersRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Repositories/ITimetablesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/CabinetInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/ClassInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/DisciplineInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/ClassesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/DisciplineRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/SchoolRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/TeacherRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Common/Classes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Common/Discipline.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Common/School.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Common/Teacher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Common/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/IClassesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/IClassesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/IDisciplineRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ISchoolRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ITeacherRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseSchoolInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/FakeDataBase/FDataBaseUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/School.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/SchoolUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ISchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/ISchoolInfoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +196,7 @@
       <workItem from="1671363415095" duration="1103000" />
       <workItem from="1671366104089" duration="2372000" />
       <workItem from="1671381342931" duration="20834000" />
-      <workItem from="1671446313359" duration="7756000" />
+      <workItem from="1671446313359" duration="9113000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>

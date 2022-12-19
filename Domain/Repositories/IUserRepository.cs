@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public class IUserRepository{    }
+namespace Domain.Repositories;public interface IUserRepository<T>{    void Delete();    void Add(T newEntity);    T GetUserInfo();}
