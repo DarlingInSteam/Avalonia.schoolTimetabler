@@ -1,6 +1,6 @@
-﻿namespace Data.Models;
+﻿namespace Domain.Entities;
 
-public class SchoolTimetable
+public class Timetable
 {
     public string Day { get; set; }
     public string TeacherOne { get; set; }

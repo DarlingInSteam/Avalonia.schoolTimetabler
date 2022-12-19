@@ -1,7 +1,8 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
-using Data.FakeDataBase;
-using Data.Models;
+using Data.Repositories;
+using Domain.Entities;
+using Domain.UseCases;
 using ReactiveUI;
 
 namespace SchoolTimetabler.ViewModels;
@@ -9,28 +10,27 @@ namespace SchoolTimetabler.ViewModels;
 public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
     private int _dataGridSelectedIndex;
-    private readonly FDataBaseDisciplines _storage;
+    private readonly DisciplineInteractor _disciplineInteractor;
 
-    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel,
-        FDataBaseDisciplines storage)
+    public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        _storage = FDataBaseDisciplines.GetInstance();
-        Disciplines = new ObservableCollection<SchoolDiscipline>(_storage.SchoolDisciplines);
+        _disciplineInteractor = new DisciplineInteractor(DisciplineRepository.GetInstance());
+        Disciplines = new ObservableCollection<Discipline>(_disciplineInteractor.GetDisciplines());
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {
-            var schoolDiscipline = new SchoolDiscipline("Новая дисциплина");
-            _storage.AddClass(schoolDiscipline);
+            var schoolDiscipline = new Discipline("Новая дисциплина");
+            _disciplineInteractor.AddDiscipline(schoolDiscipline);
             Disciplines.Add(schoolDiscipline);
         });
 
         DeleteDiscipline = ReactiveCommand.Create(() =>
         {
-            _storage.DeleteDiscipline(_dataGridSelectedIndex);
+            _disciplineInteractor.DelDiscipline(Disciplines[_dataGridSelectedIndex]);
             Disciplines.Remove(Disciplines[_dataGridSelectedIndex]);
         });
     }
 
-    public ObservableCollection<SchoolDiscipline> Disciplines { get; set; }
+    public ObservableCollection<Discipline> Disciplines { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
     public ReactiveCommand<Unit, Unit> DeleteDiscipline { get; }
 

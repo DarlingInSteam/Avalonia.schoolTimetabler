@@ -1,0 +1,1 @@
+namespace Domain.Entities;public class Cabinet{    public Cabinet(string cabinetNumber, int id)    {        CabinetNumber = cabinetNumber;         Id = id;    }    public int Id;    public string CabinetNumber { get; set; }}
