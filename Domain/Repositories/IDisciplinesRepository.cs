@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface IDisciplinesRepository{    }
+namespace Domain.Repositories;public interface IDisciplinesRepository<T> : IBaseRepository<T>{    }
