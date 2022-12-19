@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface ITeachersRepository{    }
+namespace Domain.Repositories;public interface ITeachersRepository<T> : IBaseRepository<T>{    void DelDiscipline(int index);    List<string> GetTeacherDiscipline(int index);    void AddDiscipline(List<string> str, int index);    }

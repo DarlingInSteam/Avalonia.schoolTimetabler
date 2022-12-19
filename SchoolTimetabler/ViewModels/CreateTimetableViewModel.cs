@@ -37,7 +37,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherWed;
     private readonly CabinetInteractor _cabinetInteractor;
     private readonly ClassInteractor _classInteractor;
-    private readonly FDataBaseTeachers _storageTeachers;
+    private readonly TeacherInteractor _teacherInteractor;
     private readonly FDataBaseTimetable _storageTimetable;
     private int countDays;
 
@@ -45,7 +45,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     {
         HostScreen = hostScreen;
         _storageTimetable = FDataBaseTimetable.GetInstance();
-        _storageTeachers = FDataBaseTeachers.GetInstance();
+        _teacherInteractor = new TeacherInteractor(TeacherRepository.GetInstance());
         _cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
         _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
 
@@ -57,7 +57,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         DisciplinesTeacherWed = new ObservableCollection<string>();
 
         TeachersName = new ObservableCollection<string>();
-        Teachers = new ObservableCollection<SchoolTeachers>(_storageTeachers.SchoolTeachers);
+        Teachers = new ObservableCollection<Teacher>(_teacherInteractor.GetTeachers());
         CabinetsNumbers = new ObservableCollection<string>();
         Cabinets = new ObservableCollection<Cabinet>(_cabinetInteractor.GetCabinets());
         ClassesNumber = new ObservableCollection<string>();
@@ -163,7 +163,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     public ObservableCollection<string> DisciplinesTeacherFri { get; }
     public ObservableCollection<string> DisciplinesTeacherSat { get; }
 
-    public ObservableCollection<SchoolTeachers> Teachers { get; }
+    public ObservableCollection<Teacher> Teachers { get; }
     public ObservableCollection<string> TeachersName { get; set; }
     public ObservableCollection<Cabinet> Cabinets { get; }
     public ObservableCollection<string> CabinetsNumbers { get; set; }

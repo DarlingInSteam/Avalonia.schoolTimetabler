@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface ITimetablesRepository{    }
+namespace Domain.Repositories;public interface ITimetablesRepository<T> : IBaseRepository<T>{    }
