@@ -86,6 +86,8 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
             ChangeIndexes();
             ChangeDayOfTheWeek();
+            
+            return;
         });
 
         NextDay = ReactiveCommand.Create(() =>

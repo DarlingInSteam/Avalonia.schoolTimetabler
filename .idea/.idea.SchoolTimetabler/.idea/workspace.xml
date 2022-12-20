@@ -8,25 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Cabinet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Cabinet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Class.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Class.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Discipline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Discipline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/SchoolInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/SchoolInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/Timetable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Timetable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +192,8 @@
       <workItem from="1671366104089" duration="2372000" />
       <workItem from="1671381342931" duration="20834000" />
       <workItem from="1671446313359" duration="12700000" />
-      <workItem from="1671549768342" duration="5503000" />
+      <workItem from="1671549768342" duration="6144000" />
+      <workItem from="1671561487436" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -497,6 +488,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="ref axaml code" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
+          <line>89</line>
+          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
+            <startOffsets>
+              <option value="3646" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3653" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" initialLine="23" containingFunctionPresentation="constructor 'TimetableInfoViewModel'">
+            <startOffsets>
+              <option value="700" />
+            </startOffsets>
+            <endOffsets>
+              <option value="783" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#ReactiveUI.ReactiveObject" memberName="Changed" />

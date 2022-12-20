@@ -1,4 +1,6 @@
-﻿namespace Domain.Entities;
+﻿using System.Collections.ObjectModel;
+
+namespace Domain.Entities;
 
 [Serializable]
 public class Timetable
@@ -33,4 +35,9 @@ public class Timetable
     public string DisciplineSix { get; set; }
     public string ClassSix { get; set; }
     public string CabinetSix { get; set; }
+
+    public ObservableCollection<Cabinet> Cabinets;
+    public ObservableCollection<Discipline> Disciplines;
+    public ObservableCollection<Teacher> Teachers;
+    public ObservableCollection<Class> Classes;
 }
