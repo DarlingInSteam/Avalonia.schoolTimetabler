@@ -18,7 +18,7 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
         Classes = new ObservableCollection<Class>(_classInteractor.GetClasses());
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            var schoolClass = new Class("Новое число", "Новая буква", _classInteractor.GetClasses().Count);
+            var schoolClass = new Class("Новое число", "Новая буква");
             _classInteractor.AddClass(schoolClass);
             Classes.Add(schoolClass);
         });

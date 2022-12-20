@@ -1,1 +1,1 @@
-namespace Domain.Entities;public class User{    public User(string fullName, string post)    {        FullName = fullName;        Post = post;    }    public string FullName { get; set; }    public string Post { get; set; }}
+namespace Domain.Entities;[Serializable]public class User{    public User(string fullName, string post)    {        FullName = fullName;        Post = post;    }    public string FullName { get; set; }    public string Post { get; set; }}

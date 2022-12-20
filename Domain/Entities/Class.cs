@@ -1,1 +1,1 @@
-namespace Domain.Entities;public class Class{    public Class(string number, string symbol, int id)    {        Number = number;        Symbol = symbol;        Id = id;    }    public int Id;    public string Number { get; set; }    public string Symbol { get; set; }}
+namespace Domain.Entities;[Serializable]public class Class{    public Class(string number, string symbol)    {        Number = number;        Symbol = symbol;    }        public string Number { get; set; }    public string Symbol { get; set; }}

@@ -1,5 +1,6 @@
 ﻿namespace Domain.Entities;
 
+[Serializable]
 public class Timetable
 {
     public string Day { get; set; }

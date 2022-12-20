@@ -1,1 +1,1 @@
-namespace Domain.Entities;public class Discipline{    public Discipline(string disciplineName)    {        DisciplineName = disciplineName;    }    public string DisciplineName { get; set; }}
+namespace Domain.Entities;[Serializable]public class Discipline{    public Discipline(string disciplineName)    {        DisciplineName = disciplineName;    }    public string DisciplineName { get; set; }}

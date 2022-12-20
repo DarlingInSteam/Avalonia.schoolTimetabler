@@ -1,1 +1,1 @@
-namespace Domain.Entities;public class Teacher{    public Teacher(string teacherFullName)    {        TeacherFullName = teacherFullName;    }    public List<string> TeacherDisciplines;    public string TeacherFullName { get; set; }}
+namespace Domain.Entities;[Serializable]public class Teacher{    public Teacher(string teacherFullName)    {        TeacherFullName = teacherFullName;    }    public List<string> TeacherDisciplines;    public string TeacherFullName { get; set; }}
