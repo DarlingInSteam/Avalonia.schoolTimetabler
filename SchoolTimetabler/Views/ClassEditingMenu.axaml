@@ -21,7 +21,10 @@
                     <Image Source="/Assets/addBtn.png" />
                 </Button>
             </StackPanel>
-
+            <StackPanel Orientation="Vertical" Spacing="10">
+                <TextBox Text="{Binding ClassNumber}" Watermark="Номер класса" />
+                <TextBox Text="{Binding ClassSymbol}" Watermark="Буква класса" />
+            </StackPanel>
             <Border
                 Margin="0,10,0,0"
                 Padding="4"

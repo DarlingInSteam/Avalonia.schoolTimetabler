@@ -12,7 +12,7 @@
     <StackPanel Orientation="Vertical" Spacing="5">
         <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
             <TextBlock>Меню редактирования дисциплин:</TextBlock>
-            <StackPanel Margin="0,10,0,5" Orientation="Horizontal">
+            <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
                 <Button
                     Width="40"
                     Height="40"
@@ -22,6 +22,10 @@
                 </Button>
             </StackPanel>
 
+            <TextBox
+                HorizontalContentAlignment="Stretch"
+                Text="{Binding DisciplineName}"
+                Watermark="Название дисциплины" />
 
             <Border
                 Margin="0,10,0,0"
@@ -34,6 +38,7 @@
                     Height="700"
                     AutoGenerateColumns="True"
                     CanUserResizeColumns="True"
+                    IsReadOnly="True"
                     Items="{Binding Disciplines}"
                     SelectedIndex="{Binding DataGridSelectedIndex}">
                     <DataGrid.ContextMenu>
