@@ -12,18 +12,17 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
 {
     private int _dataGridSelectedIndex;
     private string _disciplineName;
-    private readonly DisciplineInteractor _disciplineInteractor;
 
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        _disciplineInteractor = new DisciplineInteractor(DisciplineRepository.GetInstance());
-        Disciplines = new ObservableCollection<Discipline>(_disciplineInteractor.GetDisciplines());
+        var disciplineInteractor = new DisciplineInteractor(DisciplineRepository.GetInstance());
+        Disciplines = new ObservableCollection<Discipline>(disciplineInteractor.GetDisciplines());
         AddNewDiscipline = ReactiveCommand.Create(() =>
         {
-            _disciplineInteractor.AddDiscipline(DisciplineName);
+            disciplineInteractor.AddDiscipline(DisciplineName);
             Disciplines.Clear();
 
-            foreach (var t in _disciplineInteractor.GetDisciplines())
+            foreach (var t in disciplineInteractor.GetDisciplines())
             {
                 Disciplines.Add(t);
             }
@@ -32,7 +31,7 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
         });
         DeleteDiscipline = ReactiveCommand.Create(() =>
         {
-            _disciplineInteractor.DelDiscipline(Disciplines[_dataGridSelectedIndex]);
+            disciplineInteractor.DelDiscipline(Disciplines[_dataGridSelectedIndex]);
             Disciplines.Remove(Disciplines[_dataGridSelectedIndex]);
         });
     }
@@ -40,7 +39,6 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
     public ObservableCollection<Discipline> Disciplines { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
     public ReactiveCommand<Unit, Unit> DeleteDiscipline { get; }
-    public ReactiveCommand<Unit, Unit> CreateDiscipline { get; }
 
     public int DataGridSelectedIndex
     {

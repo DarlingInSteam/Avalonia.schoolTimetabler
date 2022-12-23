@@ -32,19 +32,15 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherThurs;
     private int _selectedIndexTeacherTues;
     private int _selectedIndexTeacherWed;
-    private readonly CabinetInteractor _cabinetInteractor;
-    private readonly ClassInteractor _classInteractor;
-    private readonly TeacherInteractor _teacherInteractor;
-    private readonly TimetableInteractor _timetableInteractor;
-    private int countDays;
+    private int _countDays;
 
     public CreateTimetableViewModel(IScreen hostScreen)
     {
         HostScreen = hostScreen;
-        _timetableInteractor = new TimetableInteractor(TimetablesRepository.GetInstance());
-        _teacherInteractor = new TeacherInteractor(TeacherRepository.GetInstance());
-        _cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
-        _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
+        var timetableInteractor = new TimetableInteractor(TimetablesRepository.GetInstance());
+        var teacherInteractor = new TeacherInteractor(TeacherRepository.GetInstance());
+        var cabinetInteractor = new CabinetInteractor(CabinetsRepository.GetInstance());
+        var classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
 
         DisciplinesTeacherMon = new ObservableCollection<string>();
         DisciplinesTeacherSat = new ObservableCollection<string>();
@@ -54,11 +50,11 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         DisciplinesTeacherWed = new ObservableCollection<string>();
 
         TeachersName = new ObservableCollection<string>();
-        Teachers = new ObservableCollection<Teacher>(_teacherInteractor.GetTeachers());
+        Teachers = new ObservableCollection<Teacher>(teacherInteractor.GetTeachers());
         CabinetsNumbers = new ObservableCollection<string>();
-        Cabinets = new ObservableCollection<Cabinet>(_cabinetInteractor.GetCabinets());
+        Cabinets = new ObservableCollection<Cabinet>(cabinetInteractor.GetCabinets());
         ClassesNumber = new ObservableCollection<string>();
-        Classes = new ObservableCollection<Class>(_classInteractor.GetClasses());
+        Classes = new ObservableCollection<Class>(classInteractor.GetClasses());
 
         if (Teachers.Count != 0)
             foreach (var t in Teachers[0].TeacherDisciplines)
@@ -81,7 +77,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
         BackDay = ReactiveCommand.Create(() =>
         {
-            countDays -= 1;
+            _countDays -= 1;
 
             ChangeIndexes();
             ChangeDayOfTheWeek();
@@ -91,7 +87,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
         NextDay = ReactiveCommand.Create(() =>
         {
-            countDays += 1;
+            _countDays += 1;
 
             ChangeIndexes();
             ChangeDayOfTheWeek();
@@ -133,7 +129,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             timetable.CabinetSix = CabinetsNumbers[_selectedIndexCabinetSat];
             timetable.ClassSix = ClassesNumber[_selectedIndexClass];
 
-            _timetableInteractor.AddTimetable(timetable);
+            timetableInteractor.AddTimetable(timetable);
         });
     }
 
@@ -350,7 +346,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
     private void ChangeDayOfTheWeek()
     {
-        switch (countDays)
+        switch (_countDays)
         {
             case 0:
             {

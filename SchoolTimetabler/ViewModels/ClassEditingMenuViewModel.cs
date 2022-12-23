@@ -12,18 +12,17 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
     private int _dataGridSelectedIndex;
     private string _classNumber;
     private string _classSymbol;
-    private readonly ClassInteractor _classInteractor;
 
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
-        _classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
-        Classes = new ObservableCollection<Class>(_classInteractor.GetClasses());
+        var classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
+        Classes = new ObservableCollection<Class>(classInteractor.GetClasses());
         AddNewClass = ReactiveCommand.Create(() =>
         {
-            _classInteractor.AddClass(ClassNumber, ClassSymbol);
+            classInteractor.AddClass(ClassNumber, ClassSymbol);
             Classes.Clear();
 
-            foreach (var t in _classInteractor.GetClasses())
+            foreach (var t in classInteractor.GetClasses())
             {
                 Classes.Add(t);
             }
@@ -31,7 +30,7 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
 
         DeleteClass = ReactiveCommand.Create(() =>
         {
-            _classInteractor.DelClass(Classes[_dataGridSelectedIndex]);
+            classInteractor.DelClass(Classes[_dataGridSelectedIndex]);
             Classes.Remove(Classes[_dataGridSelectedIndex]);
         });
     }
