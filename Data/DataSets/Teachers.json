@@ -1,10 +1,67 @@
 [
   {
     "TeacherDisciplines": [
-      "Чистописание",
-      "Чтение"
+      "Русский язык",
+      "Литература"
+    ],
+    "Id": 1,
+    "TeacherFullName": "Лариса Гивиевна Арачашвили"
+  },
+  {
+    "TeacherDisciplines": [
+      "Математика"
     ],
     "Id": 0,
-    "TeacherFullName": "123"
+    "TeacherFullName": "Михаил Николаевич Гуров"
+  },
+  {
+    "TeacherDisciplines": [
+      "Обществознание",
+      "Правоведение"
+    ],
+    "Id": 2,
+    "TeacherFullName": "Алихан Мавладиевич Динаев"
+  },
+  {
+    "TeacherDisciplines": [
+      "История"
+    ],
+    "Id": 3,
+    "TeacherFullName": "Илья Сергеевич Демаков"
+  },
+  {
+    "TeacherDisciplines": [
+      "Биология"
+    ],
+    "Id": 4,
+    "TeacherFullName": "Алла Николаевна Головенькина"
+  },
+  {
+    "TeacherDisciplines": [
+      "Информатика"
+    ],
+    "Id": 5,
+    "TeacherFullName": "Андрей Григорьевич Сиденко"
+  },
+  {
+    "TeacherDisciplines": [
+      "Мировая художественная культура (МХК)"
+    ],
+    "Id": 6,
+    "TeacherFullName": "Александр Александрович Демахин"
+  },
+  {
+    "TeacherDisciplines": [
+      "Музыка (Пение)"
+    ],
+    "Id": 7,
+    "TeacherFullName": "Михаил Леонидович Стародубцев"
+  },
+  {
+    "TeacherDisciplines": [
+      "Технология"
+    ],
+    "Id": 8,
+    "TeacherFullName": "Александр Евгеньевич Глозман"
   }
 ]

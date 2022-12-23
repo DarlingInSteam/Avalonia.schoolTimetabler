@@ -8,24 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/Classes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ITeachersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/ITeachersRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/UserInteractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +47,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/a1/96a6bb45/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f37ad4aa02441539d05eed61577511d94de00/e6/f09d3f9a/ObjectEqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/244223f311d9402b8090360e55dd990913a00/0e/b5d44ec8/ObservableCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f8ed66a8c6f74697ba9404df77c544b094de00/73/d73cc94d/SerializableAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f8ed66a8c6f74697ba9404df77c544b094de00/ba/0bd20d91/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/33df27cdc0d2d667f733942b3c2d90ca9437bb1bcae0255d6517dfc49bed9a8/AsObservable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -206,7 +198,8 @@
       <workItem from="1671561487436" duration="9768000" />
       <workItem from="1671711259449" duration="3563000" />
       <workItem from="1671720632726" duration="2839000" />
-      <workItem from="1671776837852" duration="29832000" />
+      <workItem from="1671776837852" duration="33330000" />
+      <workItem from="1671822437756" duration="8678000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -581,40 +574,17 @@
           </properties>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs</url>
-          <line>51</line>
-          <properties documentPath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" initialLine="51" containingFunctionPresentation="method 'GetTeacherDiscipline'">
-            <startOffsets>
-              <option value="1435" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1461" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs</url>
-          <line>94</line>
-          <properties documentPath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" initialLine="94" containingFunctionPresentation="method 'AddDiscipline'">
-            <startOffsets>
-              <option value="2703" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2759" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Frame#Data.Repositories.TeacherRepository.GetTeacherDiscipline" memberName="teacherDisciplines" />
+        <PinnedItemInfo parentTag="Type#Domain.Entities.Teacher" memberName="TeacherDisciplines" />
         <PinnedItemInfo parentTag="Type#ReactiveUI.ReactiveObject" memberName="Changed" />
         <PinnedItemInfo parentTag="Frame#SchoolTimetabler.Program.Main" memberName="args" />
+        <PinnedItemInfo parentTag="Frame#Data.Repositories.TeacherRepository.AddDiscipline" memberName="teachers" />
         <PinnedItemInfo parentTag="Type#SchoolTimetabler.ViewModels.CreateSchoolProfileViewModel" memberName="_countTeachers" />
+        <PinnedItemInfo parentTag="Type#Data.Repositories.SerializationRepository`1" memberName="EntitiesSubject" />
         <PinnedItemInfo parentTag="Type#System.Collections.Generic.List`1" memberName="System.Collections.ICollection.SyncRoot" />
       </pinned-members>
     </pin-to-top-manager>
