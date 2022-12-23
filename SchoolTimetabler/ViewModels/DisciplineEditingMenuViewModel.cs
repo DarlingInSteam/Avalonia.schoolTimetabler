@@ -22,7 +22,7 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
         {
             _disciplineInteractor.AddDiscipline(DisciplineName);
             Disciplines.Clear();
-            
+
             foreach (var t in _disciplineInteractor.GetDisciplines())
             {
                 Disciplines.Add(t);
@@ -47,12 +47,13 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
         set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value);
         get => _dataGridSelectedIndex;
     }
-    
+
     public string DisciplineName
     {
         set => this.RaiseAndSetIfChanged(ref _disciplineName, value);
         get => _disciplineName;
     }
+
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
     public RoutingState Router { get; }

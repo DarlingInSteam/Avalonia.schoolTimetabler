@@ -22,7 +22,7 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
         {
             _classInteractor.AddClass(ClassNumber, ClassSymbol);
             Classes.Clear();
-            
+
             foreach (var t in _classInteractor.GetClasses())
             {
                 Classes.Add(t);
@@ -45,13 +45,13 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
         set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value);
         get => _dataGridSelectedIndex;
     }
-    
+
     public string ClassNumber
     {
         set => this.RaiseAndSetIfChanged(ref _classNumber, value);
         get => _classNumber;
     }
-    
+
     public string ClassSymbol
     {
         set => this.RaiseAndSetIfChanged(ref _classSymbol, value);

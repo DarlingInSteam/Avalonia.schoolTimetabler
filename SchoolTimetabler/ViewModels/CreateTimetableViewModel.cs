@@ -27,7 +27,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexDisciplineTues;
     private int _selectedIndexDisciplineWed;
     private int _selectedIndexTeacherFri;
-
     private int _selectedIndexTeacherMon;
     private int _selectedIndexTeacherSat;
     private int _selectedIndexTeacherThurs;
@@ -86,7 +85,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
             ChangeIndexes();
             ChangeDayOfTheWeek();
-            
+
             return;
         });
 

@@ -8,15 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Repositories/ITeachersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Repositories/ITeachersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/TeacherInteractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +194,7 @@
       <workItem from="1671711259449" duration="3563000" />
       <workItem from="1671720632726" duration="2839000" />
       <workItem from="1671776837852" duration="33330000" />
-      <workItem from="1671822437756" duration="8678000" />
+      <workItem from="1671822437756" duration="11236000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -498,42 +493,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
-          <line>89</line>
+          <line>88</line>
           <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
             <startOffsets>
-              <option value="3646" />
+              <option value="3645" />
             </startOffsets>
             <endOffsets>
-              <option value="3653" />
+              <option value="3652" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" initialLine="23" containingFunctionPresentation="constructor 'TimetableInfoViewModel'">
-            <startOffsets>
-              <option value="700" />
-            </startOffsets>
-            <endOffsets>
-              <option value="783" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs</url>
-          <line>38</line>
-          <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" initialLine="38" containingFunctionPresentation="constructor 'TimetableInfoViewModel'">
-            <startOffsets>
-              <option value="1578" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1675" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs</url>

@@ -1,1 +1,1 @@
-namespace Domain.Entities;[Serializable]public class Cabinet{    public Cabinet(string cabinetNumber)    {        CabinetNumber = cabinetNumber;    }    public string CabinetNumber { get; set; }}
+namespace Domain.Entities;[Serializable]public class Cabinet{    public Cabinet(string cabinetNumber)    {        CabinetNumber = cabinetNumber;    }    public string CabinetNumber { get; set; }}
