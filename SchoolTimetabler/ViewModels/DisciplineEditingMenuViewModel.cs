@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
+using Avalonia.Controls;
 using Data.Repositories;
 using Domain.Entities;
 using Domain.UseCases;
@@ -26,8 +27,9 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
             {
                 Disciplines.Add(t);
             }
-        });
 
+            DisciplineName = "";
+        });
         DeleteDiscipline = ReactiveCommand.Create(() =>
         {
             _disciplineInteractor.DelDiscipline(Disciplines[_dataGridSelectedIndex]);

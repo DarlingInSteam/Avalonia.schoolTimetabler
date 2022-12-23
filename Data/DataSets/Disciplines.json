@@ -1,17 +1,110 @@
 [
   {
-    "DisciplineName": "12"
+    "DisciplineName": "Чистописание"
   },
   {
-    "DisciplineName": "123"
+    "DisciplineName": "Чтение"
   },
   {
-    "DisciplineName": "1234"
+    "DisciplineName": "Труд"
   },
   {
-    "DisciplineName": "12345"
+    "DisciplineName": "Природоведение"
   },
   {
-    "DisciplineName": "123456"
+    "DisciplineName": "Математика"
+  },
+  {
+    "DisciplineName": "Музыка (Пение)"
+  },
+  {
+    "DisciplineName": "Изобразительное искусство (Рисование)"
+  },
+  {
+    "DisciplineName": "Русский язык"
+  },
+  {
+    "DisciplineName": "Физкультура "
+  },
+  {
+    "DisciplineName": "Родной язык"
+  },
+  {
+    "DisciplineName": "Основы религиозных культур и светской этики"
+  },
+  {
+    "DisciplineName": "Иностранный язык"
+  },
+  {
+    "DisciplineName": "Граждановедение"
+  },
+  {
+    "DisciplineName": "Краеведение"
+  },
+  {
+    "DisciplineName": "История"
+  },
+  {
+    "DisciplineName": "Литература"
+  },
+  {
+    "DisciplineName": "Основы безопасности жизнедеятельности (ОБЖ)"
+  },
+  {
+    "DisciplineName": "Технология"
+  },
+  {
+    "DisciplineName": "География"
+  },
+  {
+    "DisciplineName": "Биология"
+  },
+  {
+    "DisciplineName": "Информатика"
+  },
+  {
+    "DisciplineName": "Обществознание"
+  },
+  {
+    "DisciplineName": "Черчение"
+  },
+  {
+    "DisciplineName": "Алгебра"
+  },
+  {
+    "DisciplineName": "Геометрия"
+  },
+  {
+    "DisciplineName": "Физика"
+  },
+  {
+    "DisciplineName": "Химия"
+  },
+  {
+    "DisciplineName": "Естествознание"
+  },
+  {
+    "DisciplineName": "Основы экономики"
+  },
+  {
+    "DisciplineName": "Правоведение"
+  },
+  {
+    "DisciplineName": "Философия"
+  },
+  {
+    "DisciplineName": "Экология"
+  },
+  {
+    "DisciplineName": "Астрономия"
+  },
+  {
+    "DisciplineName": "Начальная военная подготовка (НВП)"
+  },
+  {
+    "DisciplineName": "Мировая художественная культура (МХК)"
+  },
+  {
+    "DisciplineName": "Риторика"
   }
 ]
