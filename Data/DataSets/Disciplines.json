@@ -1,110 +1,35 @@
 [
   {
-    "DisciplineName": "Чистописание"
-  },
-  {
-    "DisciplineName": "Чтение"
-  },
-  {
-    "DisciplineName": "Труд"
-  },
-  {
-    "DisciplineName": "Природоведение"
-  },
-  {
-    "DisciplineName": "Математика"
-  },
-  {
-    "DisciplineName": "Музыка (Пение)"
-  },
-  {
-    "DisciplineName": "Изобразительное искусство (Рисование)"
-  },
-  {
     "DisciplineName": "Русский язык"
-  },
-  {
-    "DisciplineName": "Физкультура "
-  },
-  {
-    "DisciplineName": "Родной язык"
-  },
-  {
-    "DisciplineName": "Основы религиозных культур и светской этики"
-  },
-  {
-    "DisciplineName": "Иностранный язык"
-  },
-  {
-    "DisciplineName": "Граждановедение"
-  },
-  {
-    "DisciplineName": "Краеведение"
-  },
-  {
-    "DisciplineName": "История"
-  },
-  {
-    "DisciplineName": "Литература"
-  },
-  {
-    "DisciplineName": "Основы безопасности жизнедеятельности (ОБЖ)"
-  },
-  {
-    "DisciplineName": "Технология"
-  },
-  {
-    "DisciplineName": "География"
-  },
-  {
-    "DisciplineName": "Биология"
   },
   {
     "DisciplineName": "Информатика"
   },
   {
-    "DisciplineName": "Обществознание"
+    "DisciplineName": "Право"
   },
   {
-    "DisciplineName": "Черчение"
+    "DisciplineName": "История"
   },
   {
-    "DisciplineName": "Алгебра"
+    "DisciplineName": "Биология"
   },
   {
-    "DisciplineName": "Геометрия"
+    "DisciplineName": "Математика"
   },
   {
-    "DisciplineName": "Физика"
+    "DisciplineName": "МХК"
   },
   {
-    "DisciplineName": "Химия"
+    "DisciplineName": "Чистописание"
   },
   {
-    "DisciplineName": "Естествознание"
+    "DisciplineName": "Литература"
   },
   {
-    "DisciplineName": "Основы экономики"
+    "DisciplineName": "Технология"
   },
   {
-    "DisciplineName": "Правоведение"
-  },
-  {
-    "DisciplineName": "Философия"
-  },
-  {
-    "DisciplineName": "Экология"
-  },
-  {
-    "DisciplineName": "Астрономия"
-  },
-  {
-    "DisciplineName": "Начальная военная подготовка (НВП)"
-  },
-  {
-    "DisciplineName": "Мировая художественная культура (МХК)"
-  },
-  {
-    "DisciplineName": "Риторика"
+    "DisciplineName": "Музыка"
   }
 ]

@@ -36,6 +36,7 @@
                     Height="700"
                     AutoGenerateColumns="True"
                     CanUserResizeColumns="True"
+                    IsReadOnly="True"
                     Items="{Binding Classes}"
                     SelectedIndex="{Binding DataGridSelectedIndex}">
                     <DataGrid.ContextMenu>

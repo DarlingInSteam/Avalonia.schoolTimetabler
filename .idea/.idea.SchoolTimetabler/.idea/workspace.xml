@@ -8,10 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Timetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TeachersRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +66,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6b227eb303238834af2c3fb122a7e882e9349736231bacc21e165f6c9a98d45/ObservableBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72832e242b1b5b2b5f2cfe23f68fbfedefd417121b74c7b4f76b514a1c40/Observable.Extensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/75d9828791f39e474c67594193d0da72a24f54dc4333d5164e8a8b1550f99bd7/Unit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/78118462d3d71372854adece294076e98cf0c7814e25dc9d3b971443f2698c/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81d12998a2b0f1d072b9e6edfb2611ade9fd8782e48a547faaedd88587fbc59/ReactiveCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/94b7c1db3b15ac2eccc4c493ea3aae9d7a809d2eba1d7795c73cea92b1dd245e/NameScopeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a026bc725e8abe2fd6502c6715233c9a70cd6c1a0beefdd7909548a57cdafc/QueryLanguage.Creation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -65,6 +78,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6ae74fafdb6857a99ccc756ccc5a7fe7656165317fa734333b7e9d6fe087f/X11PlatformThreading.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fff6e1ed391cf092a5287dc447d5c7b97ac5e542cb81df3d3126ff5b7d3d71/TailRecursiveSink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/App.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolTimetabler/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -194,7 +208,8 @@
       <workItem from="1671711259449" duration="3563000" />
       <workItem from="1671720632726" duration="2839000" />
       <workItem from="1671776837852" duration="33330000" />
-      <workItem from="1671822437756" duration="11236000" />
+      <workItem from="1671822437756" duration="12009000" />
+      <workItem from="1671880190272" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -493,13 +508,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
-          <line>88</line>
+          <line>84</line>
           <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
             <startOffsets>
-              <option value="3645" />
+              <option value="3408" />
             </startOffsets>
             <endOffsets>
-              <option value="3652" />
+              <option value="3415" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
@@ -532,16 +547,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs</url>
-          <line>35</line>
+          <line>36</line>
           <properties documentPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" initialLine="35" containingFunctionPresentation="method 'Add'">
             <startOffsets>
-              <option value="1101" />
+              <option value="1105" />
             </startOffsets>
             <endOffsets>
-              <option value="1108" />
+              <option value="1112" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" initialLine="26" containingFunctionPresentation="method 'Delete'">
+            <startOffsets>
+              <option value="900" />
+            </startOffsets>
+            <endOffsets>
+              <option value="918" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

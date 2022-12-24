@@ -2,66 +2,18 @@
   {
     "TeacherDisciplines": [
       "Русский язык",
-      "Литература"
-    ],
-    "Id": 1,
-    "TeacherFullName": "Лариса Гивиевна Арачашвили"
-  },
-  {
-    "TeacherDisciplines": [
-      "Математика"
-    ],
-    "Id": 0,
-    "TeacherFullName": "Михаил Николаевич Гуров"
-  },
-  {
-    "TeacherDisciplines": [
-      "Обществознание",
-      "Правоведение"
-    ],
-    "Id": 2,
-    "TeacherFullName": "Алихан Мавладиевич Динаев"
-  },
-  {
-    "TeacherDisciplines": [
+      "Информатика",
       "История"
     ],
-    "Id": 3,
-    "TeacherFullName": "Илья Сергеевич Демаков"
+    "Id": 0,
+    "TeacherFullName": "1"
   },
   {
     "TeacherDisciplines": [
-      "Биология"
+      "Литература",
+      "Чистописание"
     ],
-    "Id": 4,
-    "TeacherFullName": "Алла Николаевна Головенькина"
-  },
-  {
-    "TeacherDisciplines": [
-      "Информатика"
-    ],
-    "Id": 5,
-    "TeacherFullName": "Андрей Григорьевич Сиденко"
-  },
-  {
-    "TeacherDisciplines": [
-      "Мировая художественная культура (МХК)"
-    ],
-    "Id": 6,
-    "TeacherFullName": "Александр Александрович Демахин"
-  },
-  {
-    "TeacherDisciplines": [
-      "Музыка (Пение)"
-    ],
-    "Id": 7,
-    "TeacherFullName": "Михаил Леонидович Стародубцев"
-  },
-  {
-    "TeacherDisciplines": [
-      "Технология"
-    ],
-    "Id": 8,
-    "TeacherFullName": "Александр Евгеньевич Глозман"
+    "Id": 1,
+    "TeacherFullName": "1(1)"
   }
 ]
