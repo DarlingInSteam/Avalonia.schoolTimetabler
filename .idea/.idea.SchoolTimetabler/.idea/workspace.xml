@@ -8,38 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/CreateTimetable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/EditingHelp/DeleteElementEditing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/EditingHelp/EditingBtns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/EditingHelp/EditingView.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/EditingHelp/NewEditingElement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/SchoolInfBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/SchoolInfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/SchoolInformation/LeftPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/SchoolInformation/RightPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/TeacherEditingHelp/TeacherBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/TeacherEditingHelp/TeacherDisciplineView.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/TeacherEditingHelp/TeacherView.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/UserInf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/UserInfBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/ViewTimetable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/HelpInformationViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/FodyWeavers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/FodyWeavers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/FodyWeavers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/FodyWeavers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/FodyWeavers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/FodyWeavers.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Cabinets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DataSets/Classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Classes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DataSets/Teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Timetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/CabinetsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SerializationRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CabinetEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/DisciplineEditingMenuViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInformationViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInformationViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateSchoolProfile.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +223,8 @@
       <workItem from="1671720632726" duration="2839000" />
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
-      <workItem from="1671880190272" duration="22922000" />
+      <workItem from="1671880190272" duration="25469000" />
+      <workItem from="1671906507210" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -524,13 +523,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
-          <line>84</line>
+          <line>99</line>
           <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
             <startOffsets>
-              <option value="3408" />
+              <option value="3778" />
             </startOffsets>
             <endOffsets>
-              <option value="3415" />
+              <option value="3785" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

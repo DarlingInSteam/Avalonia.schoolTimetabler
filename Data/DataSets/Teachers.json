@@ -1,10 +1,18 @@
 [
   {
     "TeacherDisciplines": [
-      "Русский язык",
-      "Математика"
+      "1",
+      "2"
     ],
     "Id": 0,
-    "TeacherFullName": "Пользователь П.П."
+    "TeacherFullName": "Артем"
+  },
+  {
+    "TeacherDisciplines": [
+      "1",
+      "2"
+    ],
+    "Id": 1,
+    "TeacherFullName": "Данил"
   }
 ]

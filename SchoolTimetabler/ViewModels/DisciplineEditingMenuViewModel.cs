@@ -5,13 +5,16 @@ using Data.Repositories;
 using Domain.Entities;
 using Domain.UseCases;
 using ReactiveUI;
+using ReactiveUI.Fody.Helpers;
 
 namespace SchoolTimetabler.ViewModels;
 
 public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    private int _dataGridSelectedIndex;
-    private string _disciplineName;
+    [Reactive]
+    public int DataGridSelectedIndex { get; set; }
+    [Reactive]
+    public string DisciplineName { get; set; }
 
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
@@ -31,26 +34,14 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
         });
         DeleteDiscipline = ReactiveCommand.Create(() =>
         {
-            disciplineInteractor.DelDiscipline(Disciplines[_dataGridSelectedIndex]);
-            Disciplines.Remove(Disciplines[_dataGridSelectedIndex]);
+            disciplineInteractor.DelDiscipline(Disciplines[DataGridSelectedIndex]);
+            Disciplines.Remove(Disciplines[DataGridSelectedIndex]);
         });
     }
 
     public ObservableCollection<Discipline> Disciplines { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }
     public ReactiveCommand<Unit, Unit> DeleteDiscipline { get; }
-
-    public int DataGridSelectedIndex
-    {
-        set => this.RaiseAndSetIfChanged(ref _dataGridSelectedIndex, value);
-        get => _dataGridSelectedIndex;
-    }
-
-    public string DisciplineName
-    {
-        set => this.RaiseAndSetIfChanged(ref _disciplineName, value);
-        get => _disciplineName;
-    }
 
     public string? UrlPathSegment { get; }
     public IScreen HostScreen { get; }
