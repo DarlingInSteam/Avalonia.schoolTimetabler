@@ -9,14 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Disciplines.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Teachers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CabinetEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +199,7 @@
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
       <workItem from="1671880190272" duration="25469000" />
-      <workItem from="1671906507210" duration="2797000" />
+      <workItem from="1671906507210" duration="5520000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>

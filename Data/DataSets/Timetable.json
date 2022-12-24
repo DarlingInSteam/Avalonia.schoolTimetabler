@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "Day": "Понедельник",
+    "TeacherOne": "Артыков Тимур Абдуварисович",
+    "DisciplineOne": "Химия",
+    "ClassOne": "11A",
+    "CabinetOne": "1-1",
+    "TeacherTwo": "Артыков Тимур Абдуварисович",
+    "DisciplineTwo": "Химия",
+    "ClassTwo": "11A",
+    "CabinetTwo": "1-1",
+    "TeacherThree": "Артыков Тимур Абдуварисович",
+    "DisciplineThree": "Химия",
+    "ClassThree": "11A",
+    "CabinetThree": "1-1",
+    "TeacherFour": "Артыков Тимур Абдуварисович",
+    "DisciplineFour": "Химия",
+    "ClassFour": "11A",
+    "CabinetFour": "1-1",
+    "TeacherFive": "Артыков Тимур Абдуварисович",
+    "DisciplineFive": "Химия",
+    "ClassFive": "11A",
+    "CabinetFive": "1-1",
+    "TeacherSix": "Артыков Тимур Абдуварисович",
+    "DisciplineSix": "Химия",
+    "ClassSix": "11A",
+    "CabinetSix": "1-1"
+  }
+]
