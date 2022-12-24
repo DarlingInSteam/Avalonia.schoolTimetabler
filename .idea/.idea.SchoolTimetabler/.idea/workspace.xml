@@ -8,23 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
-      <change afterPath="$PROJECT_DIR$/Domain/UseCases/PasswordInteractor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/LockWorkPlaceViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/WorkPlaceLock.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/WorkPlaceLock.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +199,8 @@
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
       <workItem from="1671880190272" duration="25469000" />
-      <workItem from="1671906507210" duration="16305000" />
+      <workItem from="1671906507210" duration="16582000" />
+      <workItem from="1671923489515" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -514,13 +499,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
-          <line>98</line>
+          <line>85</line>
           <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
             <startOffsets>
-              <option value="3755" />
+              <option value="3703" />
             </startOffsets>
             <endOffsets>
-              <option value="3762" />
+              <option value="3710" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
