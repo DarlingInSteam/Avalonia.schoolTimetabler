@@ -8,16 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
+      <change afterPath="$PROJECT_DIR$/Domain/UseCases/PasswordInteractor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/LockWorkPlaceViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/WorkPlaceLock.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/WorkPlaceLock.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/AppViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +74,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ad2cb1666df673a78739f81fd62ca624783449125e0d9f246291d15dbd2/Finally.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2655153e94c96ca3a5a9d8735f5b7453d5a79fa8307a4522835026b730abee/BehaviorSubject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2f3767dedae236674db6d81b2fbb52b3deb99609ccc195f37c2346bcbf3c/StackPanel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d72768a8469fd2e8dec91384a48567781c8abff2ecf34d9df48c4c7d777/Window.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dbebddb1f0497e0b5512d4295a4a98abb95e433a5a015b273b5ab6b798f/Catch.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e15b7d564ccc9c5bad5fff5763f6da0a5b1e2fdedf57f2958b195afcd284c/ObserverBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f6684f5d1e4b5ee93deb2f56e5e1407e35745e61dfdae39e1dbb964702d742b/UserControl.cs" root0="SKIP_HIGHLIGHTING" />
@@ -207,7 +215,7 @@
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
       <workItem from="1671880190272" duration="25469000" />
-      <workItem from="1671906507210" duration="6808000" />
+      <workItem from="1671906507210" duration="16305000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
