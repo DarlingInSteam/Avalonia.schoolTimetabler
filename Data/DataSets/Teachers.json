@@ -1,18 +1,84 @@
 [
   {
     "TeacherDisciplines": [
-      "1",
-      "2"
+      "Химия"
     ],
     "Id": 0,
-    "TeacherFullName": "Артем"
+    "TeacherFullName": "Артыков Тимур Абдуварисович"
   },
   {
     "TeacherDisciplines": [
-      "1",
-      "2"
+      "Английский язык"
     ],
     "Id": 1,
-    "TeacherFullName": "Данил"
+    "TeacherFullName": "Батырова Зильфира Рафитовна"
+  },
+  {
+    "TeacherDisciplines": [
+      "История",
+      "Обществознание"
+    ],
+    "Id": 2,
+    "TeacherFullName": "Бахмутская Юлия Игоревна"
+  },
+  {
+    "TeacherDisciplines": [
+      "Биология"
+    ],
+    "Id": 3,
+    "TeacherFullName": "Горюшкин Сергей Валерьевич"
+  },
+  {
+    "TeacherDisciplines": [
+      "История",
+      "Обществознание"
+    ],
+    "Id": 4,
+    "TeacherFullName": "Долгих Юрий Сергеевич"
+  },
+  {
+    "TeacherDisciplines": [
+      "Обществознание"
+    ],
+    "Id": 5,
+    "TeacherFullName": "Зиганшин Ильсур Рустамович"
+  },
+  {
+    "TeacherDisciplines": [
+      "Астрономия",
+      "Физика"
+    ],
+    "Id": 6,
+    "TeacherFullName": "Кашежев Аслан Зарифович"
+  },
+  {
+    "TeacherDisciplines": [
+      "Английский язык"
+    ],
+    "Id": 7,
+    "TeacherFullName": "Колоухов Андрей Александрович"
+  },
+  {
+    "TeacherDisciplines": [
+      "Русский язык",
+      "Литература"
+    ],
+    "Id": 8,
+    "TeacherFullName": "Ламаркаев Ахмед Ибрагимович"
+  },
+  {
+    "TeacherDisciplines": [
+      "История"
+    ],
+    "Id": 9,
+    "TeacherFullName": "Лутовинов Дмитрий Владимирович"
+  },
+  {
+    "TeacherDisciplines": [
+      "Математика",
+      "Информатика"
+    ],
+    "Id": 10,
+    "TeacherFullName": "Щербакова Екатерина Александровна"
   }
 ]

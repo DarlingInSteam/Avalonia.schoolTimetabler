@@ -1,8 +1,47 @@
 [
   {
-    "DisciplineName": "1"
+    "DisciplineName": "Русский язык"
   },
   {
-    "DisciplineName": "2"
+    "DisciplineName": "Математика"
+  },
+  {
+    "DisciplineName": "Биология"
+  },
+  {
+    "DisciplineName": "Информатика"
+  },
+  {
+    "DisciplineName": "Химия"
+  },
+  {
+    "DisciplineName": "Музыка"
+  },
+  {
+    "DisciplineName": "МХК"
+  },
+  {
+    "DisciplineName": "География"
+  },
+  {
+    "DisciplineName": "Английский язык"
+  },
+  {
+    "DisciplineName": "Литература"
+  },
+  {
+    "DisciplineName": "История"
+  },
+  {
+    "DisciplineName": "Обществознание"
+  },
+  {
+    "DisciplineName": "Право"
+  },
+  {
+    "DisciplineName": "Астрономия"
+  },
+  {
+    "DisciplineName": "Физика"
   }
 ]

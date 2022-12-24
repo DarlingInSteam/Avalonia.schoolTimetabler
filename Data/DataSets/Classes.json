@@ -14,5 +14,49 @@
   {
     "Number": "10",
     "Symbol": "A"
+  },
+  {
+    "Number": "10",
+    "Symbol": "B"
+  },
+  {
+    "Number": "10",
+    "Symbol": "C"
+  },
+  {
+    "Number": "9",
+    "Symbol": "A"
+  },
+  {
+    "Number": "9",
+    "Symbol": "B"
+  },
+  {
+    "Number": "9",
+    "Symbol": "C"
+  },
+  {
+    "Number": "8",
+    "Symbol": "A"
+  },
+  {
+    "Number": "8",
+    "Symbol": "B"
+  },
+  {
+    "Number": "8",
+    "Symbol": "C"
+  },
+  {
+    "Number": "7",
+    "Symbol": "A"
+  },
+  {
+    "Number": "7",
+    "Symbol": "B"
+  },
+  {
+    "Number": "7",
+    "Symbol": "C"
   }
 ]
