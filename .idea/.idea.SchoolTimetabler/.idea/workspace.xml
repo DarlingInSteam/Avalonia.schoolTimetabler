@@ -9,10 +9,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/ClassEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateProfileViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TeacherEditingMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +83,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2G2IBAU5Pwghh8kaPcvCbNAiOCU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,7 +207,7 @@
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
       <workItem from="1671880190272" duration="25469000" />
-      <workItem from="1671906507210" duration="5520000" />
+      <workItem from="1671906507210" duration="6808000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
@@ -498,65 +506,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs</url>
-          <line>99</line>
+          <line>98</line>
           <properties documentPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" initialLine="89" containingFunctionPresentation="lambda expression inside constructor 'CreateTimetableViewModel'">
             <startOffsets>
-              <option value="3778" />
+              <option value="3755" />
             </startOffsets>
             <endOffsets>
-              <option value="3785" />
+              <option value="3762" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs</url>
-          <line>40</line>
-          <properties documentPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" initialLine="42" containingFunctionPresentation="method 'CompareEntities'">
-            <startOffsets>
-              <option value="1155" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1211" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs</url>
-          <line>10</line>
-          <properties documentPath="$PROJECT_DIR$/Data/Repositories/DisciplinesRepository.cs" initialLine="10" containingFunctionPresentation="property '_disciplines'">
-            <startOffsets>
-              <option value="407" />
-            </startOffsets>
-            <endOffsets>
-              <option value="411" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs</url>
-          <line>36</line>
-          <properties documentPath="$PROJECT_DIR$/Data/Repositories/ClassesRepository.cs" initialLine="35" containingFunctionPresentation="method 'Add'">
-            <startOffsets>
-              <option value="1105" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1112" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs</url>
-          <line>26</line>
+          <line>22</line>
           <properties documentPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" initialLine="26" containingFunctionPresentation="method 'Delete'">
             <startOffsets>
-              <option value="900" />
+              <option value="630" />
             </startOffsets>
             <endOffsets>
-              <option value="918" />
+              <option value="648" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="58" />

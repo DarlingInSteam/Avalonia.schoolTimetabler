@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
-using Data.Repository;
+using Data.Repositories;
 using Domain.Entities;
 using Domain.UseCases;
 using ReactiveUI;
