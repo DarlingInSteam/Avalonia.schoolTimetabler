@@ -27,31 +27,25 @@
                 <TextBox Text="{Binding ClassNumber}" Watermark="Номер класса" />
                 <TextBox Text="{Binding ClassSymbol}" Watermark="Буква класса" />
             </StackPanel>
-            <Border
-                Margin="0,10,0,0"
-                Padding="4"
-                BorderBrush="White"
-                BorderThickness="2"
-                CornerRadius="3">
-                <DataGrid
-                    Width="700"
-                    Height="700"
-                    AutoGenerateColumns="True"
-                    CanUserResizeColumns="True"
-                    IsReadOnly="True"
-                    Items="{Binding Classes}"
-                    SelectedIndex="{Binding DataGridSelectedIndex}">
-                    <DataGrid.ContextMenu>
-                        <ContextMenu>
-                            <MenuItem Command="{Binding DeleteClass}" Header="Delete">
-                                <MenuItem.Icon>
-                                    <Image Source="/Assets/trashcan.png" />
-                                </MenuItem.Icon>
-                            </MenuItem>
-                        </ContextMenu>
-                    </DataGrid.ContextMenu>
-                </DataGrid>
-            </Border>
+
+            <DataGrid
+                Width="700"
+                Height="700"
+                AutoGenerateColumns="True"
+                CanUserResizeColumns="True"
+                IsReadOnly="True"
+                Items="{Binding Classes}"
+                SelectedIndex="{Binding DataGridSelectedIndex}">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Command="{Binding DeleteClass}" Header="Delete">
+                            <MenuItem.Icon>
+                                <Image Source="/Assets/trashcan.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+            </DataGrid>
         </StackPanel>
     </StackPanel>
 

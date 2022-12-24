@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "Day": "Понедельник",
+    "TeacherOne": "лох",
+    "DisciplineOne": "История",
+    "ClassOne": "11A",
+    "CabinetOne": "3-3",
+    "TeacherTwo": "лох",
+    "DisciplineTwo": "История",
+    "ClassTwo": "11A",
+    "CabinetTwo": "3-3",
+    "TeacherThree": "лох",
+    "DisciplineThree": "История",
+    "ClassThree": "11A",
+    "CabinetThree": "3-3",
+    "TeacherFour": "лох",
+    "DisciplineFour": "История",
+    "ClassFour": "11A",
+    "CabinetFour": "3-3",
+    "TeacherFive": "лох",
+    "DisciplineFive": "История",
+    "ClassFive": "11A",
+    "CabinetFive": "3-3",
+    "TeacherSix": "лох",
+    "DisciplineSix": "История",
+    "ClassSix": "11A",
+    "CabinetSix": "3-3"
+  }
+]

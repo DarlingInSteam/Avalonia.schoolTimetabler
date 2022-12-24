@@ -9,9 +9,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Timetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Cabinet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Cabinet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Class.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Class.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Discipline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Discipline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Teacher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Timetable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Timetable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SchoolInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/ClassEditingMenu.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/CreateTimetable.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInformation.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInformation.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/DisciplineEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SchoolInfo.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TeacherEditingMenu.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/UserInformation.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/UserInformation.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +209,7 @@
       <workItem from="1671720632726" duration="2839000" />
       <workItem from="1671776837852" duration="33330000" />
       <workItem from="1671822437756" duration="12009000" />
-      <workItem from="1671880190272" duration="13199000" />
+      <workItem from="1671880190272" duration="15992000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
