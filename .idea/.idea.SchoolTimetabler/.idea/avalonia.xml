@@ -20,8 +20,10 @@
         <entry key="SchoolTimetabler/Views/MainWindow.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/MessageBox.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/SchoolInfo.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
+        <entry key="SchoolTimetabler/Views/SchoolInformation.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/TeacherEditingMenu.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
         <entry key="SchoolTimetabler/Views/TimetableInfo.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
+        <entry key="SchoolTimetabler/Views/UserInformation.axaml" value="SchoolTimetabler/SchoolTimetabler.csproj" />
       </map>
     </option>
   </component>

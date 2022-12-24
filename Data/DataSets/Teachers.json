@@ -1,19 +1,9 @@
 [
   {
     "TeacherDisciplines": [
-      "Русский язык",
-      "Информатика",
       "История"
     ],
-    "Id": 0,
-    "TeacherFullName": "1"
-  },
-  {
-    "TeacherDisciplines": [
-      "Литература",
-      "Чистописание"
-    ],
     "Id": 1,
-    "TeacherFullName": "1(1)"
+    "TeacherFullName": "лох"
   }
 ]

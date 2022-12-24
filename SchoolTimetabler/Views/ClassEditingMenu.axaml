@@ -16,9 +16,11 @@
                 <Button
                     Width="40"
                     Height="40"
-                    Background="Black"
                     Command="{Binding AddNewClass}">
-                    <Image Source="/Assets/addBtn.png" />
+                    <Image
+                        Width="35"
+                        Height="35"
+                        Source="/Assets/addBtn.png" />
                 </Button>
             </StackPanel>
             <StackPanel Orientation="Vertical" Spacing="10">
