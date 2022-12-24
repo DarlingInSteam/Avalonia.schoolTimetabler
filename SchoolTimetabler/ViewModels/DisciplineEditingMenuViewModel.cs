@@ -11,10 +11,8 @@ namespace SchoolTimetabler.ViewModels;
 
 public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    [Reactive]
-    public int DataGridSelectedIndex { get; set; }
-    [Reactive]
-    public string DisciplineName { get; set; }
+    [Reactive] public int DataGridSelectedIndex { get; set; }
+    [Reactive] public string DisciplineName { get; set; }
 
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {

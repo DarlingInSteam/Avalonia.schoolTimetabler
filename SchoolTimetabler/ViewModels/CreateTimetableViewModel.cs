@@ -13,32 +13,19 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private string _dayOfTheWeek = "Понедельник";
     private bool _isEnableBack;
     private bool _isEnableNext = true;
-    [Reactive]
-    public int SelectedIndexCabinetFri { get; set; }
-    [Reactive]
-    public int SelectedIndexCabinetMon { get; set; }
-    [Reactive]
-    public int SelectedIndexCabinetSat { get; set; }
-    [Reactive]
-    public int SelectedIndexCabinetThurs { get; set; }
-    [Reactive]
-    public int SelectedIndexCabinetTues { get; set; }
-    [Reactive]
-    public int SelectedIndexCabinetWed { get; set; }
-    [Reactive]
-    public int SelectedIndexClass { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineFri { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineMon { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineSat { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineThurs { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineTues { get; set; }
-    [Reactive]
-    public int SelectedIndexDisciplineWed { get; set; }
+    [Reactive] public int SelectedIndexCabinetFri { get; set; }
+    [Reactive] public int SelectedIndexCabinetMon { get; set; }
+    [Reactive] public int SelectedIndexCabinetSat { get; set; }
+    [Reactive] public int SelectedIndexCabinetThurs { get; set; }
+    [Reactive] public int SelectedIndexCabinetTues { get; set; }
+    [Reactive] public int SelectedIndexCabinetWed { get; set; }
+    [Reactive] public int SelectedIndexClass { get; set; }
+    [Reactive] public int SelectedIndexDisciplineFri { get; set; }
+    [Reactive] public int SelectedIndexDisciplineMon { get; set; }
+    [Reactive] public int SelectedIndexDisciplineSat { get; set; }
+    [Reactive] public int SelectedIndexDisciplineThurs { get; set; }
+    [Reactive] public int SelectedIndexDisciplineTues { get; set; }
+    [Reactive] public int SelectedIndexDisciplineWed { get; set; }
 
     private int _selectedIndexTeacherFri;
     private int _selectedIndexTeacherMon;
@@ -215,7 +202,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         }
         get => _selectedIndexTeacherWed;
     }
-    
+
 
     public int SelectedIndexTeacherThurs
     {
@@ -227,7 +214,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         }
         get => _selectedIndexTeacherThurs;
     }
-    
+
     public int SelectedIndexTeacherFri
     {
         set
