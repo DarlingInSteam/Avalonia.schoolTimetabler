@@ -104,6 +104,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineOne = DisciplinesTeacherMon[SelectedIndexDisciplineMon];
                 timetable.CabinetOne = CabinetsMon[SelectedIndexCabinetMon];
                 timetable.ClassOne = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberOne = "1";
             }
 
             if (TeachersTues.Count != 0)
@@ -112,6 +113,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineTwo = DisciplinesTeacherTues[SelectedIndexDisciplineTues];
                 timetable.CabinetTwo = CabinetsTues[SelectedIndexCabinetTues];
                 timetable.ClassTwo = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberTwo = "2";
             }
 
             if (TeachersWed.Count != 0)
@@ -120,6 +122,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineThree = DisciplinesTeacherWed[SelectedIndexDisciplineWed];
                 timetable.CabinetThree = CabinetsWed[SelectedIndexCabinetWed];
                 timetable.ClassThree = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberThree = "3";
             }
 
             if (TeachersThurs.Count != 0)
@@ -128,6 +131,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineFour = DisciplinesTeacherThurs[SelectedIndexDisciplineThurs];
                 timetable.CabinetFour = CabinetsThurs[SelectedIndexCabinetThurs];
                 timetable.ClassFour = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberFour = "4";
             }
 
             if (TeachersFri.Count != 0)
@@ -136,6 +140,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineFive = DisciplinesTeacherFri[SelectedIndexDisciplineFri];
                 timetable.CabinetFive = CabinetsFri[SelectedIndexCabinetFri];
                 timetable.ClassFive = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberFive = "5";
             }
 
             if (TeachersSat.Count != 0)
@@ -144,6 +149,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 timetable.DisciplineSix = DisciplinesTeacherSat[SelectedIndexDisciplineSat];
                 timetable.CabinetSix = CabinetsSat[SelectedIndexCabinetSat];
                 timetable.ClassSix = ClassesNumber[SelectedIndexClass];
+                timetable.LessonNumberSix = "6";
             }
 
             timetableInteractor.AddTimetable(timetable);
