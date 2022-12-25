@@ -23,10 +23,7 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
             disciplineInteractor.AddDiscipline(DisciplineName);
             Disciplines.Clear();
 
-            foreach (var t in disciplineInteractor.GetDisciplines())
-            {
-                Disciplines.Add(t);
-            }
+            foreach (var t in disciplineInteractor.GetDisciplines()) Disciplines.Add(t);
 
             DisciplineName = "";
         });

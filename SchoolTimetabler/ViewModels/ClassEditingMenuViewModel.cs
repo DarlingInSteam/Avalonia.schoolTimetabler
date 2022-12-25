@@ -23,10 +23,7 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
             classInteractor.AddClass(ClassNumber, ClassSymbol);
             Classes.Clear();
 
-            foreach (var t in classInteractor.GetClasses())
-            {
-                Classes.Add(t);
-            }
+            foreach (var t in classInteractor.GetClasses()) Classes.Add(t);
         });
 
         DeleteClass = ReactiveCommand.Create(() =>
