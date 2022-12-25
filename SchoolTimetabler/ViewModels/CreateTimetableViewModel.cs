@@ -1,5 +1,4 @@
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Reactive;
 using Data.Repositories;
 using Domain.Entities;
@@ -11,22 +10,10 @@ namespace SchoolTimetabler.ViewModels;
 
 public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
+    private int _countDays;
     private string _dayOfTheWeek = "Понедельник";
     private bool _isEnableBack;
     private bool _isEnableNext = true;
-    [Reactive] public int SelectedIndexCabinetFri { get; set; }
-    [Reactive] public int SelectedIndexCabinetMon { get; set; }
-    [Reactive] public int SelectedIndexCabinetSat { get; set; }
-    [Reactive] public int SelectedIndexCabinetThurs { get; set; }
-    [Reactive] public int SelectedIndexCabinetTues { get; set; }
-    [Reactive] public int SelectedIndexCabinetWed { get; set; }
-    [Reactive] public int SelectedIndexClass { get; set; }
-    [Reactive] public int SelectedIndexDisciplineFri { get; set; }
-    [Reactive] public int SelectedIndexDisciplineMon { get; set; }
-    [Reactive] public int SelectedIndexDisciplineSat { get; set; }
-    [Reactive] public int SelectedIndexDisciplineThurs { get; set; }
-    [Reactive] public int SelectedIndexDisciplineTues { get; set; }
-    [Reactive] public int SelectedIndexDisciplineWed { get; set; }
 
     private int _selectedIndexTeacherFri;
     private int _selectedIndexTeacherMon;
@@ -34,7 +21,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     private int _selectedIndexTeacherThurs;
     private int _selectedIndexTeacherTues;
     private int _selectedIndexTeacherWed;
-    private int _countDays;
 
     public CreateTimetableViewModel(IScreen hostScreen)
     {
@@ -81,8 +67,6 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
             ChangeIndexes();
             ChangeDayOfTheWeek();
-
-            return;
         });
 
         NextDay = ReactiveCommand.Create(() =>
@@ -155,6 +139,20 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             timetableInteractor.AddTimetable(timetable);
         });
     }
+
+    [Reactive] public int SelectedIndexCabinetFri { get; set; }
+    [Reactive] public int SelectedIndexCabinetMon { get; set; }
+    [Reactive] public int SelectedIndexCabinetSat { get; set; }
+    [Reactive] public int SelectedIndexCabinetThurs { get; set; }
+    [Reactive] public int SelectedIndexCabinetTues { get; set; }
+    [Reactive] public int SelectedIndexCabinetWed { get; set; }
+    [Reactive] public int SelectedIndexClass { get; set; }
+    [Reactive] public int SelectedIndexDisciplineFri { get; set; }
+    [Reactive] public int SelectedIndexDisciplineMon { get; set; }
+    [Reactive] public int SelectedIndexDisciplineSat { get; set; }
+    [Reactive] public int SelectedIndexDisciplineThurs { get; set; }
+    [Reactive] public int SelectedIndexDisciplineTues { get; set; }
+    [Reactive] public int SelectedIndexDisciplineWed { get; set; }
 
     public string DayOfTheWeek
     {

@@ -1,1 +1,1 @@
-using Domain.Entities;namespace Domain.Repositories;public interface ICabinetsRepository<T> : IBaseRepository<T>{}
+namespace Domain.Repositories;public interface ICabinetsRepository<T> : IBaseRepository<T>{}

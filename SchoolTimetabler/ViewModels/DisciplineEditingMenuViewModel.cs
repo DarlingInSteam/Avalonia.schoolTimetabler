@@ -1,6 +1,5 @@
 using System.Collections.ObjectModel;
 using System.Reactive;
-using Avalonia.Controls;
 using Data.Repositories;
 using Domain.Entities;
 using Domain.UseCases;
@@ -11,9 +10,6 @@ namespace SchoolTimetabler.ViewModels;
 
 public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    [Reactive] public int DataGridSelectedIndex { get; set; }
-    [Reactive] public string DisciplineName { get; set; }
-
     public DisciplineEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
         var disciplineInteractor = new DisciplineInteractor(DisciplineRepository.GetInstance());
@@ -33,6 +29,9 @@ public class DisciplineEditingMenuViewModel : ViewModelBase, IRoutableViewModel,
             Disciplines.Remove(Disciplines[DataGridSelectedIndex]);
         });
     }
+
+    [Reactive] public int DataGridSelectedIndex { get; set; }
+    [Reactive] public string DisciplineName { get; set; }
 
     public ObservableCollection<Discipline> Disciplines { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewDiscipline { get; }

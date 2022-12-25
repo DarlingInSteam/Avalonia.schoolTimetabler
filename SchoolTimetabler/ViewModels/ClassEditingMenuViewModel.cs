@@ -10,10 +10,6 @@ namespace SchoolTimetabler.ViewModels;
 
 public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScreen
 {
-    [Reactive] public int DataGridSelectedIndex { get; set; }
-    [Reactive] public string ClassNumber { get; set; }
-    [Reactive] public string ClassSymbol { get; set; }
-
     public ClassEditingMenuViewModel(CreateSchoolProfileViewModel createSchoolProfileViewModel)
     {
         var classInteractor = new ClassInteractor(ClassesRepository.GetInstance());
@@ -32,6 +28,10 @@ public class ClassEditingMenuViewModel : ViewModelBase, IRoutableViewModel, IScr
             Classes.Remove(Classes[DataGridSelectedIndex]);
         });
     }
+
+    [Reactive] public int DataGridSelectedIndex { get; set; }
+    [Reactive] public string ClassNumber { get; set; }
+    [Reactive] public string ClassSymbol { get; set; }
 
     public ObservableCollection<Class> Classes { get; set; }
     public ReactiveCommand<Unit, Unit> AddNewClass { get; }
