@@ -9,17 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataSets/Classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/SchoolInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Timetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/TimetablesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/TimetableInteractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/CreateTimetableViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/SchoolInfoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/UseCases/SchoolInfoInteractor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/TimetableInfoViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +208,7 @@
       <workItem from="1671923489515" duration="187000" />
       <workItem from="1671923945313" duration="640000" />
       <workItem from="1671929241473" duration="93000" />
-      <workItem from="1671959397960" duration="24174000" />
+      <workItem from="1671959397960" duration="29861000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
