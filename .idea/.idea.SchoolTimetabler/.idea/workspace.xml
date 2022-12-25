@@ -7,7 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code" />
+    <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/PasswordHelp/InputPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/PasswordHelp/Password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/PasswordHelp/PasswordWork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolTimetabler/Assets/Help/PasswordHelp/SetPassword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/SchoolTimetabler.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/ViewModels/SetPasswordViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/HelpInformation.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/SetPassword.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,6 +213,8 @@
       <workItem from="1671906507210" duration="16582000" />
       <workItem from="1671923489515" duration="187000" />
       <workItem from="1671923945313" duration="640000" />
+      <workItem from="1671929241473" duration="93000" />
+      <workItem from="1671959397960" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
