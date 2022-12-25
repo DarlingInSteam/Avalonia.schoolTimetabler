@@ -58,5 +58,77 @@
   {
     "Number": "7",
     "Symbol": "C"
+  },
+  {
+    "Number": "6",
+    "Symbol": "A"
+  },
+  {
+    "Number": "6",
+    "Symbol": "B"
+  },
+  {
+    "Number": "6",
+    "Symbol": "C"
+  },
+  {
+    "Number": "5",
+    "Symbol": "A"
+  },
+  {
+    "Number": "5",
+    "Symbol": "B"
+  },
+  {
+    "Number": "5",
+    "Symbol": "C"
+  },
+  {
+    "Number": "4",
+    "Symbol": "A"
+  },
+  {
+    "Number": "4",
+    "Symbol": "B"
+  },
+  {
+    "Number": "4",
+    "Symbol": "C"
+  },
+  {
+    "Number": "3",
+    "Symbol": "A"
+  },
+  {
+    "Number": "3",
+    "Symbol": "B"
+  },
+  {
+    "Number": "3",
+    "Symbol": "C"
+  },
+  {
+    "Number": "2",
+    "Symbol": "A"
+  },
+  {
+    "Number": "2",
+    "Symbol": "B"
+  },
+  {
+    "Number": "2",
+    "Symbol": "C"
+  },
+  {
+    "Number": "1",
+    "Symbol": "A"
+  },
+  {
+    "Number": "1",
+    "Symbol": "B"
+  },
+  {
+    "Number": "1",
+    "Symbol": "C"
   }
 ]

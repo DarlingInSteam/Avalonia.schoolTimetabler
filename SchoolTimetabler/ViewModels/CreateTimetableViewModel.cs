@@ -64,7 +64,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         CabinetsWed = new ObservableCollection<string>();
         CabinetsFri = new ObservableCollection<string>();
         CabinetsSat = new ObservableCollection<string>();
-        
+
         TeachersName = new ObservableCollection<string>();
         Teachers = new ObservableCollection<Teacher>(teacherInteractor.GetTeachers());
         CabinetsNumbers = new ObservableCollection<string>();
@@ -73,7 +73,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         Classes = new ObservableCollection<Class>(classInteractor.GetClasses());
 
         foreach (var t in Classes) ClassesNumber.Add(t.Number + t.Symbol);
-        
+
 
         BackDay = ReactiveCommand.Create(() =>
         {
@@ -189,7 +189,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
     public ObservableCollection<string> TeachersThurs { get; set; }
     public ObservableCollection<string> TeachersFri { get; set; }
     public ObservableCollection<string> TeachersSat { get; set; }
- 
+
     public ObservableCollection<Cabinet> Cabinets { get; }
     public ObservableCollection<string> CabinetsNumbers { get; set; }
     public ObservableCollection<string> CabinetsMon { get; set; }
@@ -383,7 +383,7 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
         foreach (var t in Cabinets) CabinetsFri.Add(t.CabinetNumber);
     }
-    
+
     public void AddSix()
     {
         foreach (var t in Teachers) TeachersSat.Add(t.TeacherFullName);
