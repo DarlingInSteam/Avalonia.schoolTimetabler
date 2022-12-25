@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Reactive;
 using Data.Repositories;
 using Domain.Entities;
@@ -50,6 +51,20 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         DisciplinesTeacherTues = new ObservableCollection<string>();
         DisciplinesTeacherWed = new ObservableCollection<string>();
 
+        TeachersMon = new ObservableCollection<string>();
+        TeachersThurs = new ObservableCollection<string>();
+        TeachersTues = new ObservableCollection<string>();
+        TeachersFri = new ObservableCollection<string>();
+        TeachersWed = new ObservableCollection<string>();
+        TeachersSat = new ObservableCollection<string>();
+
+        CabinetsThurs = new ObservableCollection<string>();
+        CabinetsTues = new ObservableCollection<string>();
+        CabinetsMon = new ObservableCollection<string>();
+        CabinetsWed = new ObservableCollection<string>();
+        CabinetsFri = new ObservableCollection<string>();
+        CabinetsSat = new ObservableCollection<string>();
+        
         TeachersName = new ObservableCollection<string>();
         Teachers = new ObservableCollection<Teacher>(teacherInteractor.GetTeachers());
         CabinetsNumbers = new ObservableCollection<string>();
@@ -57,24 +72,8 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
         ClassesNumber = new ObservableCollection<string>();
         Classes = new ObservableCollection<Class>(classInteractor.GetClasses());
 
-        if (Teachers.Count != 0)
-            foreach (var t in Teachers[0].TeacherDisciplines)
-            {
-                DisciplinesTeacherMon.Add(t);
-                DisciplinesTeacherFri.Add(t);
-                DisciplinesTeacherSat.Add(t);
-                DisciplinesTeacherThurs.Add(t);
-                DisciplinesTeacherTues.Add(t);
-                DisciplinesTeacherWed.Add(t);
-            }
-        else
-            IsEnableNext = false;
-
         foreach (var t in Classes) ClassesNumber.Add(t.Number + t.Symbol);
-
-        foreach (var t in Teachers) TeachersName.Add(t.TeacherFullName);
-
-        foreach (var t in Cabinets) CabinetsNumbers.Add(t.CabinetNumber);
+        
 
         BackDay = ReactiveCommand.Create(() =>
         {
@@ -99,36 +98,53 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
             var timetable = new Timetable();
 
             timetable.Day = DayOfTheWeek;
+            if (TeachersMon.Count != 0)
+            {
+                timetable.TeacherOne = TeachersMon[_selectedIndexTeacherMon];
+                timetable.DisciplineOne = DisciplinesTeacherMon[SelectedIndexDisciplineMon];
+                timetable.CabinetOne = CabinetsMon[SelectedIndexCabinetMon];
+                timetable.ClassOne = ClassesNumber[SelectedIndexClass];
+            }
 
-            timetable.TeacherOne = TeachersName[_selectedIndexTeacherMon];
-            timetable.DisciplineOne = DisciplinesTeacherMon[SelectedIndexDisciplineMon];
-            timetable.CabinetOne = CabinetsNumbers[SelectedIndexCabinetMon];
-            timetable.ClassOne = ClassesNumber[SelectedIndexClass];
+            if (TeachersTues.Count != 0)
+            {
+                timetable.TeacherTwo = TeachersTues[_selectedIndexTeacherTues];
+                timetable.DisciplineTwo = DisciplinesTeacherTues[SelectedIndexDisciplineTues];
+                timetable.CabinetTwo = CabinetsTues[SelectedIndexCabinetTues];
+                timetable.ClassTwo = ClassesNumber[SelectedIndexClass];
+            }
 
-            timetable.TeacherTwo = TeachersName[_selectedIndexTeacherTues];
-            timetable.DisciplineTwo = DisciplinesTeacherTues[SelectedIndexDisciplineTues];
-            timetable.CabinetTwo = CabinetsNumbers[SelectedIndexCabinetTues];
-            timetable.ClassTwo = ClassesNumber[SelectedIndexClass];
+            if (TeachersWed.Count != 0)
+            {
+                timetable.TeacherThree = TeachersWed[_selectedIndexTeacherWed];
+                timetable.DisciplineThree = DisciplinesTeacherWed[SelectedIndexDisciplineWed];
+                timetable.CabinetThree = CabinetsWed[SelectedIndexCabinetWed];
+                timetable.ClassThree = ClassesNumber[SelectedIndexClass];
+            }
 
-            timetable.TeacherThree = TeachersName[_selectedIndexTeacherWed];
-            timetable.DisciplineThree = DisciplinesTeacherWed[SelectedIndexDisciplineWed];
-            timetable.CabinetThree = CabinetsNumbers[SelectedIndexCabinetWed];
-            timetable.ClassThree = ClassesNumber[SelectedIndexClass];
+            if (TeachersThurs.Count != 0)
+            {
+                timetable.TeacherFour = TeachersThurs[_selectedIndexTeacherThurs];
+                timetable.DisciplineFour = DisciplinesTeacherThurs[SelectedIndexDisciplineThurs];
+                timetable.CabinetFour = CabinetsThurs[SelectedIndexCabinetThurs];
+                timetable.ClassFour = ClassesNumber[SelectedIndexClass];
+            }
 
-            timetable.TeacherFour = TeachersName[_selectedIndexTeacherThurs];
-            timetable.DisciplineFour = DisciplinesTeacherThurs[SelectedIndexDisciplineThurs];
-            timetable.CabinetFour = CabinetsNumbers[SelectedIndexCabinetThurs];
-            timetable.ClassFour = ClassesNumber[SelectedIndexClass];
+            if (TeachersFri.Count != 0)
+            {
+                timetable.TeacherFive = TeachersFri[_selectedIndexTeacherFri];
+                timetable.DisciplineFive = DisciplinesTeacherFri[SelectedIndexDisciplineFri];
+                timetable.CabinetFive = CabinetsFri[SelectedIndexCabinetFri];
+                timetable.ClassFive = ClassesNumber[SelectedIndexClass];
+            }
 
-            timetable.TeacherFive = TeachersName[_selectedIndexTeacherFri];
-            timetable.DisciplineFive = DisciplinesTeacherFri[SelectedIndexDisciplineFri];
-            timetable.CabinetFive = CabinetsNumbers[SelectedIndexCabinetFri];
-            timetable.ClassFive = ClassesNumber[SelectedIndexClass];
-
-            timetable.TeacherSix = TeachersName[_selectedIndexTeacherSat];
-            timetable.DisciplineSix = DisciplinesTeacherSat[SelectedIndexDisciplineSat];
-            timetable.CabinetSix = CabinetsNumbers[SelectedIndexCabinetSat];
-            timetable.ClassSix = ClassesNumber[SelectedIndexClass];
+            if (TeachersSat.Count != 0)
+            {
+                timetable.TeacherSix = TeachersSat[_selectedIndexTeacherSat];
+                timetable.DisciplineSix = DisciplinesTeacherSat[SelectedIndexDisciplineSat];
+                timetable.CabinetSix = CabinetsSat[SelectedIndexCabinetSat];
+                timetable.ClassSix = ClassesNumber[SelectedIndexClass];
+            }
 
             timetableInteractor.AddTimetable(timetable);
         });
@@ -161,8 +177,21 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
 
     public ObservableCollection<Teacher> Teachers { get; }
     public ObservableCollection<string> TeachersName { get; set; }
+    public ObservableCollection<string> TeachersMon { get; set; }
+    public ObservableCollection<string> TeachersTues { get; set; }
+    public ObservableCollection<string> TeachersWed { get; set; }
+    public ObservableCollection<string> TeachersThurs { get; set; }
+    public ObservableCollection<string> TeachersFri { get; set; }
+    public ObservableCollection<string> TeachersSat { get; set; }
+ 
     public ObservableCollection<Cabinet> Cabinets { get; }
     public ObservableCollection<string> CabinetsNumbers { get; set; }
+    public ObservableCollection<string> CabinetsMon { get; set; }
+    public ObservableCollection<string> CabinetsTues { get; set; }
+    public ObservableCollection<string> CabinetsWed { get; set; }
+    public ObservableCollection<string> CabinetsThurs { get; set; }
+    public ObservableCollection<string> CabinetsFri { get; set; }
+    public ObservableCollection<string> CabinetsSat { get; set; }
     public ObservableCollection<Class> Classes { get; }
     public ObservableCollection<string> ClassesNumber { get; set; }
 
@@ -312,5 +341,47 @@ public class CreateTimetableViewModel : ViewModelBase, IRoutableViewModel, IScre
                 break;
             }
         }
+    }
+
+    public void AddOne()
+    {
+        foreach (var t in Teachers) TeachersMon.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsMon.Add(t.CabinetNumber);
+    }
+
+    public void AddTwo()
+    {
+        foreach (var t in Teachers) TeachersTues.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsTues.Add(t.CabinetNumber);
+    }
+
+    public void AddThree()
+    {
+        foreach (var t in Teachers) TeachersWed.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsWed.Add(t.CabinetNumber);
+    }
+
+    public void AddFour()
+    {
+        foreach (var t in Teachers) TeachersThurs.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsThurs.Add(t.CabinetNumber);
+    }
+
+    public void AddFive()
+    {
+        foreach (var t in Teachers) TeachersFri.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsFri.Add(t.CabinetNumber);
+    }
+    
+    public void AddSix()
+    {
+        foreach (var t in Teachers) TeachersSat.Add(t.TeacherFullName);
+
+        foreach (var t in Cabinets) CabinetsSat.Add(t.CabinetNumber);
     }
 }
