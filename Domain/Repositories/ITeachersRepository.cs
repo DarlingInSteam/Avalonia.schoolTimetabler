@@ -1,1 +1,1 @@
-namespace Domain.Repositories;public interface ITeachersRepository<T> : IBaseRepository<T>{    void DelDiscipline(T entity);    List<string> GetTeacherDiscipline(int index);    void AddDiscipline(T entity);}
+namespace Domain.Repositories;public interface ITeachersRepository<T> : IBaseRepository<T>{    void DelDiscipline(T delTeacher, int indexTeacher);    List<string> GetTeacherDiscipline(int index);    void AddDiscipline(T entity);}
