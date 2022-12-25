@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "Day": "Понедельник",
+    "TeacherOne": "Горюшкин Сергей Валерьевич",
+    "DisciplineOne": "Биология",
+    "ClassOne": "11A",
+    "CabinetOne": "1-3",
+    "LessonNumberOne": "1",
+    "TeacherTwo": "Ламаркаев Ахмед Ибрагимович",
+    "DisciplineTwo": "Русский язык",
+    "ClassTwo": "11A",
+    "CabinetTwo": "2-2",
+    "LessonNumberTwo": "2",
+    "TeacherThree": "Лутовинов Дмитрий Владимирович",
+    "DisciplineThree": "История",
+    "ClassThree": "11A",
+    "CabinetThree": "1-1",
+    "LessonNumberThree": "3",
+    "TeacherFour": "Ламаркаев Ахмед Ибрагимович",
+    "DisciplineFour": "Литература",
+    "ClassFour": "11A",
+    "CabinetFour": "1-2",
+    "LessonNumberFour": "4",
+    "TeacherFive": "Кашежев Аслан Зарифович",
+    "DisciplineFive": "Астрономия",
+    "ClassFive": "11A",
+    "CabinetFive": "3-3",
+    "LessonNumberFive": "5",
+    "TeacherSix": "Лутовинов Дмитрий Владимирович",
+    "DisciplineSix": "История",
+    "ClassSix": "11A",
+    "CabinetSix": "1-2",
+    "LessonNumberSix": "6"
+  }
+]

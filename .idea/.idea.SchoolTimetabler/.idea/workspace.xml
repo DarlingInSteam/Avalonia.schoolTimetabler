@@ -9,141 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e626459c-ab05-4d7f-8c88-0444061cd773" name="Changes" comment="ref axaml code">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolTimetabler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolTimetabler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/css/jquery.bonsai.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/icon-font/icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/icon-font/icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/icon-font/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/icon-font/icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/icon-font/icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/js/jquery-2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/js/jquery.bonsai.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/assets/js/less-1.7.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/00a9780d108ade251698a8bf74c7929f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/016ff1c8c705953a709be7ddf1434c45.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/0431545d3af0902b17cb2c244f4374d4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/08cfbcdbb6bfeb5531a10a3c2e649577.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/0a36572d1dbe485d94796ea4faf05fd4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/104350e73a99cb9f938bdeb182676659.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/10f3af14c2f141b43ccb3d2df2ba1971.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/12496737290b8186dea994347900515a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/12e63acbc42a015d048a346fba2e5f70.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/14f6e6155eaa1549749c25aad3e5de53.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/173f9a9eb485784dfe26246102812158.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/1874d31e4a3f5286011946f4f0eeccfe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/1d3b56125550b9f433757d0af5cde02e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/1ef4eada97a1be5f36d1675b44ae4839.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/2546ab54f378cc7d9fe90b08ac595898.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/25aeac9fb4cf062a7094f3f492a7ef37.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/25bb76afc7bc0968bbb452eca9e667c9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/260a2588ab01772ab6467dd882827098.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/2645cffe2022f7b5a4179a378361a43b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/26bf1e4b907b572ffc6cb77194d486d9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/272f156f166c59fdb8d0ed33fe22cd4c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/286b007e41764f74fe2cfb8c6272fe7a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/2896d6e2e3a14d8362282c1da297be91.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/28dbcca93518be96b942b380efea1605.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/293e73cab56703983782bacabd268eac.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/2cb4140d49e9e203973116be44a04881.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/3537ee2abef6b8f10bcb2bf01d6171fb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/36724e9a076abee8f15cc31496813846.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/3be7c151a1fe86b4737730a959a8bfb5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/3c8d7413395d4d7590ca17652924f89e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/3dcc836bc96a8a73f7f5da95703466f7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/4061054a460e94acf0deabdd6bc3190a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/43deef883bd0f00f785b0fdd59517336.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/448f347d421b676e118b346a0c5b1620.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/45727210eb0f70f1e82d2f9c739b7bbc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/465895e9ecc683c1580ff4e2218e5f31.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/4c39a2f6db26da66c0f0fc96bf5e358e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/4e3ed915457d6c12f3ce263f87356769.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/500c9ea706f424007693fde8da543352.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/5773fa5bb820d2449ca3aa913a81e30e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/5b9b256d1d8d2eb495de668d11c488b8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/5d83c2c2daea80ed950662786e64ae28.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/60670c11830af4982bea658e07833a64.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/609614cad35a217413aca6dfe03dd36b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/65ca0076f97f3de471182f7af0456769.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/66bb8e5a99c3d4dc5ebbb5da8b6e2e9c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/671df00bccbb7973740b178fff7746ba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/688e1ac68cfc7c129cffad99489c5650.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/69001c848596f6babfbe84d79e96f1aa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/6a8af8ceb24a7ced2469f7b0946456ab.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/6b445d42c7a9638026265253bc07395e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/704e8ad4db6039c6ccf2df0a302b90d1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/753cd6a5a2190306a5d6f4ab41193171.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/79044dace99a6997497c442d01f5bf1b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/7c0e847da3bebb8d0399290e7c088067.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/811f380230352aad50465c77cdf49250.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/889f6d2195cb6efaf59fc79dd60145b2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/89a436acf784d3fed05eb743ae08a4d4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8a0e77c772f73597b08d7240febec59a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8ae020e1f9b7e0a2baa6a28351150491.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8b4527c5dd5ed406ffdf7932c7eeaba8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8cc2dc4d3ca9907c77cc4853c00b6379.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8df05a3e001abddfac02ab1eece62480.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/8f626d26724227e9882fa3ac8194ba7e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/9627e85562d6440b44b89de145834e7c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/96fbb2cb0886c81b19b6bb230e0a8562.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/9b85fc1cd62c8c8a30d2d7f19e602704.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/9d7b6486a648fcb701f51212411f5438.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/9d89a1921d4b197938b65cbe90da128f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/9eca3b618bda646864bd6e19cbf32f20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/a0f1bdef2a82372d380cb00fb3c4bc1d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/a2acb440e89acd910d566fbb961c01b6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/a2cac67abfac2a34280a3050f0d704df.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/a42bf521a8bf283d1bfe6534d4c3470f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/ac19e5a349d7fd73dab180893a4aa170.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/acab835a3d7fa4cce416c46d46c688aa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/b0e78c6527d8647442e9246e5191321a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/b39ab050dbd86a2472f1705b9f323476.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/b68fa7b94950c56870294789d6ab6632.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/b8892d6d0176293ac7e02ba818f1741f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/bacd8c86ea383f5635ee56a7ec645246.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/bbea3464a8a340cb36fa0c5b26a01c22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/bdd64dbe18042e985603a471659bef6e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/bef73e9e5b1cc9e245280f11ebe81a2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/c41fcf3ec4972608b58e18c8dbddbf26.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/c5dbf8bd344f6d44b3d2491e1c10fd52.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/c715f0df81da4ea5faac2b010e977845.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/ca2756b2bf3721e3f97cb8c59225dddd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cb3a1a846c2365ab77cfe3d437d599b5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cb62b60631d07762e2a268d38479be38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cbde8a7b180e3e00205d9fa97d60edc5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cda05168f3de60f27bdde3ffa23abc54.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cec909862af71e1748d9a09c67c7d925.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/cf9c8b720f3815adeccaf3ef6e48c6c4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d03ce256c09fbac1ab4e483949d1f3d5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d1bdea04e80bac442685605aaa6d5432.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d2e0458874d72263b5b2d404ada6f09e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d3d51f1fb369e2dbc31589354d469b51.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d4c358a9e15ca75167adeab6f6c3c8b2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/d893dc4840eb309c5e453225b133fb41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/daf61dd64666227b4bae8b49fd526f18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/dafcef3bf9afe4c6d6adec262b1fc356.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/dbc43ed9402e4d3e6e06635bc2b8ee36.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/dce2a0341073b3cfb42d50442e3924eb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/dd68b8fbf8c8c5abe0756301db291cf7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/diagrams.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/e3ae0c55ce3b4c193c99fcf38f58e452.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/e3c10cb41b4741825d63a785b89cf12f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/e5b38bcf1d74655c4a2ba08072ce4ae6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/e8491fa766df31a766b95fc83e184583.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/eab3809fe433f8cbdb80c9f0af9e2609.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/element_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/f10c4fad712b8320581d475bfc3a5dc6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/f79a63c5f3c732df7b11ef987126dceb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/fb84b826edb567716ae09c44a895d5d5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/fc36603d94acf7fb469f8fffe89d63d4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/fd3a04ac15a9e814083c6601499e7288.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/contents/navigation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/diagrams/cec909862af71e1748d9a09c67c7d925.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html-docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/Timetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/Timetable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataSets/User.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataSets/User.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/PasswordWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolTimetabler/Views/TimetableInfo.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +34,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -338,7 +208,7 @@
       <workItem from="1671923489515" duration="187000" />
       <workItem from="1671923945313" duration="640000" />
       <workItem from="1671929241473" duration="93000" />
-      <workItem from="1671959397960" duration="14665000" />
+      <workItem from="1671959397960" duration="19113000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1665580129761</created>
